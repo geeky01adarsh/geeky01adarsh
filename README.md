@@ -11,13 +11,13 @@
 ](https://github.com/geeky01adarsh)    [![image](https://user-images.githubusercontent.com/74068552/128005090-21264f21-c9bf-4694-9ef1-60fbec6b6e48.png)
 ](https://www.hackerrank.com/geeky01adarsh?hr_r=1) 
  
-[![Adarsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=geeky01adarsh)](https://github.com/anuraghazra/github-readme-stats)
+[![Adarsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-readme-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/ryo-ma/github-profile-trophy)
-[![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-profile-trophy)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geeky01adarsh&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geeky01adarsh&langs_count=8)](https://github.com/geeky01adarsh/github-readme-stats)
 
 <!---
 geeky01adarsh/geeky01adarsh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
