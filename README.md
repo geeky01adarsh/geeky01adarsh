@@ -13,8 +13,8 @@
  
 [![Adarsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-readme-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-profile-trophy)
-[![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-profile-trophy)
+<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-profile-trophy) -->
+<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-profile-trophy) -->
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geeky01adarsh&langs_count=8)](https://github.com/geeky01adarsh/github-readme-stats)
