@@ -11,6 +11,8 @@
 ](https://github.com/geeky01adarsh)    [![image](https://user-images.githubusercontent.com/74068552/128005090-21264f21-c9bf-4694-9ef1-60fbec6b6e48.png)
 ](https://www.hackerrank.com/geeky01adarsh?hr_r=1) 
  
+ <p align="left"> <img src="https://komarev.com/ghpvc/?username=geeky01adarsh&label=Profile%20views&color=0e75b6&style=flat" alt="geeky01adarsh" /> </p>
+
 [![Adarsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-readme-stats)
 
 <!-- [![trophy](https://github-profile-trophy.vercel.app/?username=geeky01adarsh)](https://github.com/geeky01adarsh/github-profile-trophy) -->
@@ -18,6 +20,8 @@
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geeky01adarsh&langs_count=8)](https://github.com/geeky01adarsh/github-readme-stats)
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=geeky01adarsh&" alt="geeky01adarsh" /></p>
 
 <!---
 geeky01adarsh/geeky01adarsh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
