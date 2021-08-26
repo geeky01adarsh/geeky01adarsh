@@ -42,18 +42,26 @@
 
 </br>
 
-<h3>Technical Skills 🛠</h3>
-<p>
-<img alt="C" src="https://img.shields.io/badge/c-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white" />
-<img alt="C++" src="https://img.shields.io/badge/c++-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white" />
-<img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"/>
-<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white" />
-<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
-<img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-<img alt="VS-Code" src="https://img.shields.io/badge/Editor-VSCode-blue?style=flat-square&logo=visual-studio-code&logoColor=white" />
-<img alt="Git" src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" />
-<img alt="Github" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" /> 
+<h2>Languages and Tools 🛠</h2>
+<p align='center'>
+   <table align='center' width='250px'>
+      <tr>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="C" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" />&nbsp;&nbsp;</td>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="C++" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" />&nbsp;&nbsp;</td>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="Python" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="Java" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="HTML5" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" />&nbsp;&nbsp;</td>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" />&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="Git" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" />&nbsp;&nbsp;</td>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="Github" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" />&nbsp;&nbsp; </td>
+<!-- <img alt="JavaScript" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" /> -->
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" />&nbsp;&nbsp;</td>
+      </tr>
+      </table>
 </p>
 </br>
 
