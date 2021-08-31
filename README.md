@@ -26,6 +26,9 @@
 </a>&nbsp;&nbsp;
 <a href="https://codeforces.com/profile/geeky01adarsh">
   <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codeforces.svg" />
+</a>&nbsp;&nbsp;
+<a href="https://dev.to/geeky01adarsh">
+  <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/dev-dot-to.svg" />
 </a>
 </p>
 </br>
