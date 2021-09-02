@@ -1,4 +1,4 @@
-<h1 align="center">Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">, I'm <a href="https://sites.google.com/view/adarsh-navneet-sinha/about" target="_blank">Adarsh!💙</a></br> Glad to see you here!!!</h1>
+<h1 align="center">Hi <img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/blob/blob-wave-gif.gif" width="40px">, I'm <a href="https://sites.google.com/view/adarsh-navneet-sinha/about" target="_blank">Adarsh!💙</a></br> Glad to see you here!!!</h1>
 
 <p align='center'>
    <img src="https://readme-typing-svg.herokuapp.com?color=e96443&size=40&width=900&height=80&lines=Welcome-to-My-Github-Profile"/>
@@ -7,17 +7,22 @@
 
 <p align='center'>
 <a href="https://www.linkedin.com/in/adarsh-navneet-sinha-34a36419a/">
-  <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"  />
+  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg//linkedin.svg"  />
 </a>&nbsp;&nbsp;
 <a href="https://twitter.com/geeky01adarsh">
-  <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/twitter.svg" />
 </a>&nbsp;&nbsp;
 <a href="mailto:adarsh91094@gmail.com">
-  <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
+  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/gmail.svg" />
 </a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/geeky01adarsh/">
-  <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/instagram.svg" />
 </a>&nbsp;&nbsp;
+   </p>
+<p align='center'>
+    <img src="https://readme-typing-svg.herokuapp.com?size=40&width=900&height=80&lines=Connect-to-me-on-my-developer-accounts"/>
+</p>
+<p align='center'>
 <a href="https://auth.geeksforgeeks.org/user/geeky01adarsh/practice/">
   <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/geeksforgeeks.svg" />
 </a>&nbsp;&nbsp;
