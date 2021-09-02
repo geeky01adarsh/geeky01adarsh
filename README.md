@@ -4,20 +4,19 @@
    <img src="https://readme-typing-svg.herokuapp.com?color=e96443&size=40&width=900&height=80&lines=Welcome-to-My-Github-Profile"/>
     <img src="https://readme-typing-svg.herokuapp.com?color=2599db&size=40&width=900&height=80&lines=Connect-to-me-on-my-social-accounts"/>
 </p>
-
 <p align='center'>
 <a href="https://www.linkedin.com/in/adarsh-navneet-sinha-34a36419a/">
-  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg//linkedin.svg"  />
-</a>&nbsp;&nbsp;
+  <img align="center" width="35px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg//linkedin.svg"  />
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://twitter.com/geeky01adarsh">
-  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/twitter.svg" />
-</a>&nbsp;&nbsp;
+  <img align="center" width="35px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/twitter.svg" />
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:adarsh91094@gmail.com">
-  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/gmail.svg" />
-</a>&nbsp;&nbsp;
+  <img align="center" width="35px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/gmail.svg" />
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.instagram.com/geeky01adarsh/">
-  <img align="center" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/instagram.svg" />
-</a>&nbsp;&nbsp;
+  <img align="center" width="35px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/instagram.svg" />
+</a>
    </p>
 <p align='center'>
     <img src="https://readme-typing-svg.herokuapp.com?size=40&width=900&height=80&lines=Connect-to-me-on-my-developer-accounts"/>
@@ -25,13 +24,13 @@
 <p align='center'>
 <a href="https://auth.geeksforgeeks.org/user/geeky01adarsh/practice/">
   <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/geeksforgeeks.svg" />
-</a>&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.codechef.com/users/geeky01adarsh">
   <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codechef.svg" />
-</a>&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://codeforces.com/profile/geeky01adarsh">
   <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codeforces.svg" />
-</a>&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://dev.to/geeky01adarsh">
   <img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/dev-dot-to.svg" />
 </a>
