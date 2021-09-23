@@ -19,7 +19,7 @@
 </a>
    </p>
 <p align='center'>
-    <img src="https://readme-typing-svg.herokuapp.com?size=40&width=900&height=80&lines=Checkout-my-developer-accounts"/>
+    <img src="https://readme-typing-svg.herokuapp.com?size=40&width=900&height=80&lines=Checkout-my-developer-profiles"/>
 </p>
 <p align='center'>
 <a href="https://auth.geeksforgeeks.org/user/geeky01adarsh/practice/">
