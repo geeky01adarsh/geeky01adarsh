@@ -93,8 +93,8 @@
 
 <table>
   <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=geeky01adarsh&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Adarsh's GitHub stats" /></td>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=geeky01adarsh&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&layout=compact&theme=cobalt" alt="Adarsh's Top Languages" /></td>
+  <td> <img src="https://github-readme-stats.vercel.app/api?username=geeky01adarsh&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Adarsh's GitHub stats" />  </td>
+    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=geeky01adarsh&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&layout=compact&theme=cobalt" alt="Adarsh's Top Languages" /></td>
   </tr>
 </table>
 
