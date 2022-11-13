@@ -41,10 +41,11 @@
 <img  src="geeky01adarsh.png" width="40%" align="right" >
 
 ### About Me 🚀
-- 🎓 I’m an Coding enthusiast & a junior pursuing my Bachelors in Computer Science & Engineering.
+- 🎓 I’m an Coding enthusiast & a penultimate pursuing my Bachelors in Computer Science & Engineering.
 - 👀 I’m highly interested in programming, developing projects and collaborating with such more developers.
-- 🌱 I’m currently learning Data Structures and Algorithms and web development.
-- 💞️ I’m trying to arrange resources for my juniors.
+- 🌱 I’m currently learning Data Structures and Algorithms.
+- 💻 I'm a MERN developer.
+
 
 
 </br>
@@ -56,17 +57,26 @@
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="C" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" />&nbsp;&nbsp;</td>
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="C++" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" />&nbsp;&nbsp;</td>
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="Python" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;&nbsp;</td>
+         <td width="250" align='center'>&nbsp;&nbsp;<img alt="Java" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       <tr>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="Java" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
+
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="HTML5" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" />&nbsp;&nbsp;</td>
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" />&nbsp;&nbsp;</td>
+         <td width="250" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" />&nbsp;&nbsp;</td>
+         <td width="250" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       <tr>
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="Git" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" />&nbsp;&nbsp;</td>
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="Github" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" />&nbsp;&nbsp; </td>
-<!-- <img alt="JavaScript" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" /> -->
 <td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" />&nbsp;&nbsp;</td>
+         <td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/canva/canva-original.svg" />&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="Git" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" />&nbsp;&nbsp;</td>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="Github" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" />&nbsp;&nbsp; </td>
+<td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" />&nbsp;&nbsp;</td>
+         <td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       </table>
 </p>
@@ -76,8 +86,8 @@
 
 
 ### My expriences 💻
-- I'm GeeksforGeeks Campus Mantri.
-- I'm GFG IIST Chapter Innovation Head.
+- I have served as GeeksforGeeks Campus Mantri and had won Campus Mantri of the Month award.
+- I was GFG IIST Chapter Innovation Head and had contributions towards organizing events like DSA Marathon.
 - Mentored around 50 students for get started with coding.
 - I had served CodeChef IIST as a Competitive Progeammer.
 
