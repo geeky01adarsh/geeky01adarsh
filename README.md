@@ -52,31 +52,31 @@
 
 <h2>Languages and Tools 🛠</h2>
 <p align='center'>
-   <table align='center' width='250px'>
+   <table align='center' width='180px'>
       <tr>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="C" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" />&nbsp;&nbsp;</td>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="C++" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" />&nbsp;&nbsp;</td>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="Python" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;&nbsp;</td>
-         <td width="250" align='center'>&nbsp;&nbsp;<img alt="Java" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="C" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="C++" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="Python" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;&nbsp;</td>
+         <td width="180" align='center'>&nbsp;&nbsp;<img alt="Java" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       <tr>
 
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="HTML5" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" />&nbsp;&nbsp;</td>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" />&nbsp;&nbsp;</td>
-         <td width="250" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" />&nbsp;&nbsp;</td>
-         <td width="250" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="HTML5" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" />&nbsp;&nbsp;</td>
+         <td width="180" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" />&nbsp;&nbsp;</td>
+         <td width="180" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       <tr>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="Git" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" />&nbsp;&nbsp;</td>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="Github" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" />&nbsp;&nbsp; </td>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" />&nbsp;&nbsp;</td>
-         <td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/canva/canva-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="Git" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="Github" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" />&nbsp;&nbsp; </td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" />&nbsp;&nbsp;</td>
+         <td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/canva/canva-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       <tr>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="Git" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" />&nbsp;&nbsp;</td>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="Github" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" />&nbsp;&nbsp; </td>
-<td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" />&nbsp;&nbsp;</td>
-         <td width="250" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="Git" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="Github" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" />&nbsp;&nbsp; </td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" />&nbsp;&nbsp;</td>
+         <td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="100px" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       </table>
 </p>
