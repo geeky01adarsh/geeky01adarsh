@@ -73,7 +73,7 @@
 - I have served as GeeksforGeeks Campus Mantri and had won Campus Mantri of the Month award.
 - I was GFG IIST Chapter Innovation Head and had contributions towards organizing events like DSA Marathon.
 - Mentored around 50 students for get started with coding.
-- I had served CodeChef IIST as a Competitive Progeammer.
+- I had served CodeChef IIST as a Competitive Programmer.
 
 </br></br></br></br>
 
