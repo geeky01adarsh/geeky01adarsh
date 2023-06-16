@@ -83,7 +83,9 @@
    <summary>
 ### My Holopin Badges🎗🎗
       </summary>
+   
 [![@geeky01adarsh's Holopin board](https://holopin.me/geeky01adarsh)](https://holopin.io/@geeky01adarsh)
+
 </details>
 <hr>
 
