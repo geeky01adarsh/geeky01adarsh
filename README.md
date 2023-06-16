@@ -69,19 +69,22 @@
 <img src="workbench.svg" width="40%" align="right">
 
 
-### My expriences 💻
-- I have served as GeeksforGeeks Campus Mantri and had won Campus Mantri of the Month award.
-- I was GFG IIST Chapter Innovation Head and had contributions towards organizing events like DSA Marathon.
-- Mentored around 50 students for get started with coding.
-- I had served CodeChef IIST as a Competitive Programmer.
+### My experiences 💻
+- I have served as GeeksforGeeks Campus Mantri and had won the Campus Mantri of the Month award.
+- I was GFG IIST Chapter Innovation Head and contributed towards organizing events like DSA Marathon.
+- Mentored around 50 students to get started with coding.
+- I served CodeChef IIST as a Competitive Programmer..
 
 </br></br></br></br>
 
 <hr>
 
+<details>
+   <summary>
 ### My Holopin Badges🎗🎗
+      </summary>
 [![@geeky01adarsh's Holopin board](https://holopin.me/geeky01adarsh)](https://holopin.io/@geeky01adarsh)
-
+</details>
 <hr>
 
 <!-- #### Github Stats:- -->
