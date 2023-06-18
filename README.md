@@ -1,7 +1,6 @@
 <!-- headline -->
 <h1 align="center">Hi <img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/blob/blob-wave-gif.gif" width="40px">, I'm <a href="https://geeky01adarsh.github.io/portfolio" target="_blank">Adarsh!💙</a></br> Glad to see you here!!!</h1>
 
-
 <!-- Social Links -->
 <h2 align="center">Connect with me:</h2>
 <p align="center">
@@ -26,12 +25,13 @@
 <img  src="geeky01adarsh.png" width="40%" align="right" >
 
 <!-- about me -->
+
 ### About Me 🚀
+
 - 🎓 I’m an Coding enthusiast & a penultimate pursuing my Bachelors in Computer Science & Engineering.
 - 👀 I’m highly interested in programming, developing projects and collaborating with such more developers.
 - 🌱 I’m currently learning Data Structures and Algorithms.
 - 💻 I'm a MERN developer.
-
 
 </br>
 
@@ -44,7 +44,7 @@
 <td width="180" align='center'>&nbsp;&nbsp;<img alt="C++" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" />&nbsp;&nbsp;</td>
 <td width="180" align='center'>&nbsp;&nbsp;<img alt="Python" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;&nbsp;</td>
          <td width="180" align='center'>&nbsp;&nbsp;<img alt="Java" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
-      
+
 
 <td width="180" align='center'>&nbsp;&nbsp;<img alt="HTML5" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" />&nbsp;&nbsp;</td>
 <td width="180" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" />&nbsp;&nbsp;</td>
@@ -68,8 +68,8 @@
 
 <img src="workbench.svg" width="40%" align="right">
 
-
 ### My experiences 💻
+
 - I have served as GeeksforGeeks Campus Mantri and had won the Campus Mantri of the Month award.
 - I was GFG IIST Chapter Innovation Head and contributed towards organizing events like DSA Marathon.
 - Mentored around 50 students to get started with coding.
@@ -79,10 +79,10 @@
 
 <hr>
 
-<details>
-   <summary>
 ### My Holopin Badges🎗🎗
-      </summary>
+<details>
+<summary>View them</summary>
+  
    
 [![@geeky01adarsh's Holopin board](https://holopin.me/geeky01adarsh)](https://holopin.io/@geeky01adarsh)
 
@@ -102,7 +102,6 @@
   </tr>
 </table>
 
-
 <table align='center'>
   <tr>
     <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=geeky01adarsh&layout=compact" alt="Adarsh's Contribution stats" /></td>
@@ -118,7 +117,6 @@
 🧡 Thank you for visiting my Github Profile 🧡
 
 </p>
-
 
 <!---
 geeky01adarsh/geeky01adarsh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
