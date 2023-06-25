@@ -28,8 +28,8 @@
 
 ### About Me 🚀
 
-- 🎓 I’m an Coding enthusiast & a penultimate pursuing my Bachelors in Computer Science & Engineering.
-- 👀 I’m highly interested in programming, developing projects and collaborating with such more developers.
+- 🎓 I’m a Coding enthusiast & a final year student pursuing my Bachelor's in Computer Science & Engineering.
+- 👀 I’m highly interested in programming, developing projects, and collaborating with such more developers.
 - 🌱 I’m currently learning Data Structures and Algorithms.
 - 💻 I'm a MERN developer.
 
@@ -73,7 +73,7 @@
 - I have served as GeeksforGeeks Campus Mantri and had won the Campus Mantri of the Month award.
 - I was GFG IIST Chapter Innovation Head and contributed towards organizing events like DSA Marathon.
 - Mentored around 50 students to get started with coding.
-- I served CodeChef IIST as a Competitive Programmer..
+- I served CodeChef IIST as a Competitive Programmer.
 
 </br></br></br></br>
 
@@ -97,7 +97,7 @@
 
 <table>
   <tr>
-  <td> <img src="https://github-readme-stats.vercel.app/api?username=geeky01adarsh&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Adarsh's GitHub stats" />  </td>
+  <td> <img src="https://github-readme-stats.vercel.app/api?username=geeky01adarsh&show=reviews&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Adarsh's GitHub stats" />  </td>
     <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=geeky01adarsh&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&layout=compact&theme=cobalt" alt="Adarsh's Top Languages" /></td>
   </tr>
 </table>
@@ -113,8 +113,8 @@
  -->
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=geeky01adarsh&label=Profile%20views&color=orange&style=flat&label=PROFILE+VIEWS" alt="geeky01adarsh" /> 
-</br>   Find the repos I'm proud of, below in my pinned repos. </br>Please provide support by giving star if you liked it.</br>
-🧡 Thank you for visiting my Github Profile 🧡
+</br>   Find the repos I'm proud of, below in my pinned repos. </br>Please provide support by giving a star if you liked it.</br>
+🧡 Thank you for visiting my GitHub Profile 🧡
 
 </p>
 
