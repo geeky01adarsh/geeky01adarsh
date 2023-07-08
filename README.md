@@ -86,7 +86,10 @@
 </details>
 <hr>
 
-<!-- #### Github Stats:- -->
+### My Github Stats 🏆🏆🏆
+<details>
+<summary>View them</summary>
+   
 <p align="center">
  <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">My GitHub's Stats</h2>
@@ -109,6 +112,8 @@
 <!-- ### Contribution Graph 📈
 ![geeky01adarsh's contribution graph](https://activity-graph.herokuapp.com/graph?username=geeky01adarsh&custom_title=geeky01adarsh's%20contribution%20in%20last%2031%20days&color=ffffff&line=faf5f2&point=f5e1d3&bg_color=cc5200&area=true&area_color=e65c00)
  -->
+
+</details>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=geeky01adarsh&label=Profile%20views&color=orange&style=flat&label=PROFILE+VIEWS" alt="geeky01adarsh" /> 
 </br>   Find the repos I'm proud of, below in my pinned repos. </br>Please provide support by giving a star if you liked it.</br>
