@@ -98,8 +98,8 @@
 <table>
   <tr>
    <!-- use https://github-readme-stats.vercel.app/api?username=geeky01adarsh instead for showing results --->
-  <td> <img src="https://github-readme-stats-eight-tau-89.vercel.app/api?username=geeky01adarsh&show=reviews&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Adarsh's GitHub stats" />  </td>
-    <td><img src="https://github-readme-stats-eight-tau-89.vercel.app/api/top-langs?username=geeky01adarsh&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&layout=compact&theme=cobalt" alt="Adarsh's Top Languages" /></td>
+  <td> <img src="https://github-readme-stats-eight-tau-89.vercel.app/api?username=geeky01adarsh&show_icons=true&show=reviews&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Adarsh's GitHub stats" />  </td>
+    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=geeky01adarsh&show_icons=true&locale=en&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&layout=compact&theme=cobalt" alt="Adarsh's Top Languages" /></td>
   </tr>
 </table>
 
