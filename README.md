@@ -4,20 +4,17 @@
 <!-- Social Links -->
 <h2 align="center">Connect with me:</h2>
 <p align="center">
+<a href="https://stackoverflow.com/users/15397231/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="geeky01adarsh" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="geeky01adarsh" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="geeky01adarsh" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://dev.to/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://twitter.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://kaggle.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://instagram.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://hashnode.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/geeky01adarsh" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://www.hackerearth.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://discord.gg/Adarsh#7101" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Adarsh#7101" height="30" width="40" /></a>
+
 </p>
 <br/><br/>
 
