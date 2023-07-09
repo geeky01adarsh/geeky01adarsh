@@ -13,7 +13,7 @@
 <a href="https://hashnode.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/geeky01adarsh" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="geeky01adarsh" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="geeky01adarsh" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="geeky01adarsh" height="30" width="40" /></a>
+<!-- <a href="https://www.hackerearth.com/geeky01adarsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="geeky01adarsh" height="30" width="40" /></a> -->
 
 </p>
 <br/><br/>
@@ -71,6 +71,7 @@
 - I was GFG IIST Chapter Innovation Head and contributed towards organizing events like DSA Marathon.
 - Mentored around 50 students to get started with coding.
 - I served CodeChef IIST as a Competitive Programmer.
+- I was Technical Content Writer at GeeksforGeeks.
 
 </br></br></br></br>
 
