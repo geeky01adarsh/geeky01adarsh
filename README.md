@@ -1,5 +1,6 @@
 <!-- headline -->
-<h1 align="center">Hi <img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/blob/blob-wave-gif.gif" width="40px">, I'm <a href="https://geeky01adarsh.github.io/portfolio" target="_blank">Adarsh!💙</a></br> Glad to see you here!!!</h1>
+<h1 align="center">Hi, I'm <a href="https://geeky01adarsh.github.io/portfolio" target="_blank">Adarsh!💙</a></br> Glad to see you here!!!</h1>
+<!--    <img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/blob/blob-wave-gif.gif" width="40px"> -->
 
 <!-- Social Links -->
 <h2 align="center">Connect with me:</h2>
