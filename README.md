@@ -26,7 +26,7 @@
 
 ### About Me 🚀
 
-- 🎓 I’m a Coding enthusiast & a final year student pursuing my Bachelor's in Computer Science & Engineering.
+- 🎓 I’m a full stack developer & a final year student pursuing my Bachelor's in Computer Science & Engineering.
 - 👀 I’m highly interested in programming, developing projects, and collaborating with such more developers.
 - 🌱 I’m currently learning Data Structures and Algorithms.
 - 💻 I'm a MERN developer.
