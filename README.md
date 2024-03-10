@@ -24,11 +24,12 @@
 <p align='center'>
    <table align='center' width='100px'>
       <tr>
-<td width="180" align='center'>&nbsp;&nbsp;<img alt="C" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" />&nbsp;&nbsp;</td>
-<td width="180" align='center'>&nbsp;&nbsp;<img alt="C++" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" />&nbsp;&nbsp;</td>
-<td width="180" align='center'>&nbsp;&nbsp;<img alt="Python" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;&nbsp;</td>
-         <td width="180" align='center'>&nbsp;&nbsp;<img alt="Java" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
 
+
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="MongoDB" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="Express" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" />&nbsp;&nbsp; </td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="React" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" />&nbsp;&nbsp;</td>
+         <td width="180" align='center'>&nbsp;&nbsp;<img alt="Node" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" />&nbsp;&nbsp;</td>
 
 <td width="180" align='center'>&nbsp;&nbsp;<img alt="HTML5" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" />&nbsp;&nbsp;</td>
 <td width="180" align='center'>&nbsp;&nbsp;<img alt="CSS3" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" />&nbsp;&nbsp;</td>
@@ -41,10 +42,10 @@
 <td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" />&nbsp;&nbsp;</td>
          <td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/canva/canva-original.svg" />&nbsp;&nbsp;</td>
      
-<td width="180" align='center'>&nbsp;&nbsp;<img alt="Git" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" />&nbsp;&nbsp;</td>
-<td width="180" align='center'>&nbsp;&nbsp;<img alt="Github" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" />&nbsp;&nbsp; </td>
-<td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" />&nbsp;&nbsp;</td>
-         <td width="180" align='center'>&nbsp;&nbsp;<img alt="VS-Code" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="C" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="C++" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" />&nbsp;&nbsp;</td>
+<td width="180" align='center'>&nbsp;&nbsp;<img alt="Python" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;&nbsp;</td>
+         <td width="180" align='center'>&nbsp;&nbsp;<img alt="Java" width="60px" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" />&nbsp;&nbsp;</td>
       </tr>
       </table>
 </p>
