@@ -12,10 +12,10 @@
 
 ### About Me 🚀
 
-- 🎓 I’m a full stack developer & a final year student pursuing my Bachelor's in Computer Science & Engineering.
-- 👀 I’m highly interested in programming, developing projects, and collaborating with such more developers.
-- 🌱 I’m currently learning Data Structures and Algorithms.
-- 💻 I'm a MERN developer.
+- 🎓 I have completed my Bachelor's in Computer Science & Engineering.
+- 👀 I’m highly interested in programming, developing projects, and collaborating with more developers.
+- 🌱 I’m currently learning about network forencics.
+- 💻 I'm a software engineer.
 
 </br>
 
@@ -55,7 +55,8 @@
 
 ### My experiences 💻
 
-- Currently working as a Software Developer at Sustainiam.
+- Currently working as a Software Developer at ClearTrail.
+- Worked with Sustainiam where I worked on full-stack development, scaling backends, and handled some DevOps part.
 - Worked with IG Techso, as a full stack developer, mostly handling the backend.
 - Technical Content Writer at GeeksforGeeks, articles have over 150k+ views.
 - Mentored around 50 students to get started with coding.
