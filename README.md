@@ -13,8 +13,7 @@
 ### About Me 🚀
 
 - 🎓 I have completed my Bachelor's in Computer Science & Engineering.
-- 👀 I’m highly interested in programming, developing projects, and collaborating with more developers.
-- 🌱 I’m currently learning about network forencics.
+- 🌱 I’m currently learning about network forensics.
 - 💻 I'm a software engineer.
 
 </br>
