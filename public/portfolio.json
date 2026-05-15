@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "siteTitle": "Adarsh Navneet Sinha",
+    "tagline": "Software Engineer · Web3, systems, and backend",
+    "location": "Indore, Madhya Pradesh, India",
+    "email": "adarsh91094@gmail.com",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/adarsh91094",
+      "github": "https://github.com/geeky01adarsh"
+    },
+    "shellWelcome": "Type `help` to see commands. Earn XP by exploring — progress is saved locally."
+  },
+  "seo": {
+    "siteUrl": "",
+    "titleSuffix": "Software engineer · Web3, systems, backend",
+    "description": "Adarsh Navneet Sinha — software engineer (Web3 wallets, Canton/DAML, Node.js, C++ systems). Openvector; ex–ClearTrail (DPI, TLS, VoIP). Indore, India. Portfolio, projects, and contact.",
+    "keywords": [
+      "Adarsh Navneet Sinha",
+      "geeky01adarsh",
+      "software engineer India",
+      "Web3 developer",
+      "Canton Network developer",
+      "DAML developer",
+      "blockchain engineer",
+      "Node.js backend",
+      "TypeScript developer",
+      "C++ systems programming",
+      "network DPI",
+      "TLS decryption",
+      "React portfolio",
+      "Indore software engineer",
+      "Openvector",
+      "ClearTrail",
+      "Zoro Wallet",
+      "Trade.fast",
+      "full stack engineer"
+    ],
+    "ogImage": "/assets/decor/hero-aside.svg",
+    "twitterCreator": "@geeky01adarsh",
+    "themeColor": "#0b0d18",
+    "locale": "en_IN",
+    "jsonLdJobTitle": "Software Engineer"
+  },
+  "theme": {
+    "note": "Web3 + systems palette: warm gold + cyan + violet on deep navy.",
+    "accentFrom": "#fdc50f",
+    "accentTo": "#fb982f",
+    "blurTint": "#2d1f4d"
+  },
+  "themes": {
+    "enabled": true,
+    "defaultMode": "dark",
+    "shellPageUsesDarkChrome": true,
+    "appearanceStorageKey": "portfolioV2_appearance",
+    "labels": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "Auto"
+    },
+    "definitions": {
+      "light": {
+        "blueCard": "#e8f7ff",
+        "purple": "#efe1ff"
+      },
+      "dark": {
+        "bg": "#0a0f23",
+        "surface": "#121831",
+        "blueCard": "#161d3b",
+        "purple": "rgba(167, 139, 250, 0.22)",
+        "blurTint": "#23154d",
+        "metaThemeColor": "#0a0f23",
+        "cardBorder": "rgba(141, 158, 235, 0.08)"
+      },
+      "shell": {
+        "bg": "#05070f",
+        "surface": "#0c1020",
+        "terminalBg": "#060814",
+        "metaThemeColor": "#05070f"
+      }
+    }
+  },
+  "visual": {
+    "cursor": {
+      "enabled": true,
+      "sizePx": 36
+    },
+    "background": {
+      "enabled": true,
+      "style": "aurora",
+      "parallaxStrength": 0.55
+    },
+    "hero": {
+      "useGithubAvatarFallback": true,
+      "portraitAlt": "Adarsh Navneet Sinha",
+      "asideImageUrl": "/assets/decor/hero-aside.svg",
+      "asideImageAlt": "Workspace mock: terminal output, Canton network, and Zoro wallet card"
+    },
+    "skillsBanner": {
+      "url": "/assets/banners/skills.svg",
+      "alt": "Skills banner — C++, TypeScript, Canton, DAML, TLS, QUIC, Boost.Asio"
+    },
+    "contactBanner": {
+      "url": "/assets/banners/contact.svg",
+      "alt": "Two engineers connected through a Web3 / systems network mesh"
+    }
+  },
+  "heroStats": [
+    { "label": "Wallet users (Zoro)", "value": "45K+" },
+    { "label": "Tx / day (Canton)", "value": "300K+" },
+    { "label": "Sessions / day (DPI)", "value": "10M+" },
+    { "label": "VoIP correlation", "value": "~95%" },
+    { "label": "DSA problems", "value": "2000+" },
+    { "label": "Article reads", "value": "250K+" }
+  ],
+  "gamification": {
+    "xpPerShellCommand": 12,
+    "xpPerLandingSection": 35,
+    "achievements": [
+      {
+        "id": "shell_starter",
+        "title": "Shell Starter",
+        "description": "Run your first terminal command.",
+        "xpBonus": 40
+      },
+      {
+        "id": "shell_power",
+        "title": "Power User",
+        "description": "Run 8 distinct shell commands.",
+        "xpBonus": 120
+      },
+      {
+        "id": "landing_scout",
+        "title": "Scout",
+        "description": "Reveal every landing section.",
+        "xpBonus": 150
+      }
+    ]
+  },
+  "skills": {
+    "languages": ["C++", "TypeScript", "JavaScript", "Python", "Solidity"],
+    "systems": ["C++ STL", "Boost.Asio", "Multi-threading", "Async I/O", "Node.js"],
+    "backend": ["Express.js", "Next.js", "RabbitMQ", "Elasticsearch", "Redis"],
+    "web3": ["Canton Network", "Wallet architecture", "SDK design", "DApp integration", "Smart contracts"],
+    "devops": ["Docker", "AWS", "GitHub Actions (CI/CD)", "TLS/SSL", "Wireshark"],
+    "networking": ["TCP/IP", "UDP", "HTTP/HTTPS", "QUIC", "STUN/RTP", "DNS", "SIP", "L2/L3 correlation"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
+  },
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Openvector",
+      "logoUrl": "/assets/logos/openvector.svg",
+      "logoAlt": "Openvector — official brand mark",
+      "location": "Gurugram, India",
+      "start": "2026-01",
+      "end": "present",
+      "themeAccent": "#a78bfa",
+      "tags": ["Web3", "Canton Network", "DAML", "Node.js", "React Native"],
+      "stats": [
+        { "label": "wallet users", "value": "45K+" },
+        { "label": "tx / day", "value": "300K+" },
+        { "label": "swaps / day", "value": "~15K" },
+        { "label": "nodes operated", "value": "3" }
+      ],
+      "highlights": [
+        {
+          "name": "Zoro Wallet",
+          "stack": "Node.js, Koa, React Native, Expo, Canton Network, DAML",
+          "bullets": [
+            "Leading end-to-end development of a Canton-based Web3 wallet supporting 5 digital assets among 45K+ users.",
+            "Implemented CIP-0103 on Zoro Wallet via RPC-based routing.",
+            "Engineered wallet integration framework: transactions, event listeners, and handlers across multiple wallets.",
+            "Dynamic fee computation for Canton transactions across assets.",
+            "Extended protocol support: token onboarding and on-chain/cross-chain swaps with multi-partner integration."
+          ]
+        },
+        {
+          "name": "Zoro APIs & transaction scaling",
+          "stack": "Node.js, Koa, Golang, Canton Network, DAML",
+          "bullets": [
+            "300K+ CC incremental revenue via proactive transaction management, reward gate, node monitoring, and uptime ownership.",
+            "Reward-gate-based bot transfer logic to maximize earnings.",
+            "Scaled Zoro APIs to 8 TPS with strict rate limiting at peak volume.",
+            "Provisioned 45,000 bot accounts across 3 nodes (Cypherock, Tradefast, OpenVector).",
+            "High-frequency pipeline: 300K+ transactions/day."
+          ]
+        },
+        {
+          "name": "Trade.fast",
+          "stack": "Node.js, Fastify, Canton Network, DAML, Next.js, Solidity",
+          "bullets": [
+            "Dynamic leaderboards for trading and liquidity pool rankings with standing-based rewards.",
+            "Referral tracking dashboard with quest-level attribution.",
+            "Uniswap V2-style liquidity pools UI with analytics and historical token data.",
+            "WebAuth-based client-side transaction signing; seed phrase encrypted client-side.",
+            "Co-developed AMM and liquidity pools on Canton; peak ~15k+ swaps/day."
+          ]
+        },
+        {
+          "name": "Bridge — ERC20 on Canton",
+          "stack": "DAML, Solidity, Smart contracts, Next.js, Fastify",
+          "bullets": [
+            "Featured App assurance on testnet plus swap features.",
+            "APIs interfacing backend, DAML, and smart contracts for bridge execution.",
+            "Node performance and transaction monitoring dashboard."
+          ]
+        },
+        {
+          "name": "Featured App Rewards",
+          "stack": "Python, Pandas, NumPy, TypeScript, Node.js",
+          "bullets": [
+            "Reward prediction algorithm for marker submissions.",
+            "Automated marker submission and traffic buying using four data signals."
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Associate Software Engineer",
+      "company": "ClearTrail Technologies",
+      "logoUrl": "/assets/logos/cleartrail.png",
+      "logoAlt": "ClearTrail Technologies — official logo",
+      "location": "Indore, India",
+      "start": "2024-03",
+      "end": "2026-02",
+      "themeAccent": "#22d3ee",
+      "tags": ["C++", "DPI", "TLS 1.2", "VoIP", "QUIC", "Wireshark"],
+      "stats": [
+        { "label": "sessions / day", "value": "10M+" },
+        { "label": "VoIP correlation", "value": "~95%" },
+        { "label": "distributed nodes", "value": "54" },
+        { "label": "program scale", "value": "$300M" }
+      ],
+      "highlights": [
+        {
+          "name": "COMET",
+          "stack": "C++, Python, Wireshark, HTTP, TLS 1.2, TCP/UDP, SIP/RTP, STUN/TURN",
+          "bullets": [
+            "Federal-grade network intelligence; POCs to production for lawful interception.",
+            "Core R&D / POC lead for COMET (KSA) $300M program — DPI and correlation modules.",
+            "DPI systems: 10M+ sessions/day across L2–L7 with optimized correlation.",
+            "VoIP correlation for encrypted calls — ~95% accuracy over 10M+ daily sessions.",
+            "C++ TLS reconstruction with libgcrypt for real-time PCAP decryption.",
+            "Distributed pipelines across 54 nodes; 10M+ records/day, sub-ms latency."
+          ]
+        },
+        {
+          "name": "MetaTrail",
+          "stack": "C++, Python, Wireshark, FoIP, SRTP, NLP",
+          "bullets": [
+            "FoIP processing to TIFF with ~95% accuracy.",
+            "Extract WAV from SRTP using keys from SIP.",
+            "Location detail at Tehsil level for J&K precision tracking.",
+            "SMTP session extraction, conversation analytics, and intent detection."
+          ]
+        },
+        {
+          "name": "Singular",
+          "stack": "C++, Python, Wireshark, UDP, QUIC",
+          "bullets": [
+            "Application classification by signature across communication genres.",
+            "QUIC session header extraction/decryption for session identification.",
+            "Correlation for multiplayer online game traffic."
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Founding Software Engineer",
+      "company": "Sustainiam",
+      "logoUrl": "/assets/logos/sustainiam.jpg",
+      "logoAlt": "Sustainiam — official company logo",
+      "location": "Bangalore, India",
+      "start": "2023-12",
+      "end": "2024-03",
+      "themeAccent": "#34d399",
+      "tags": ["MERN", "Stripe", "CI/CD", "SEO"],
+      "stats": [
+        { "label": "products shipped", "value": "3" },
+        { "label": "orgs onboarded", "value": "10+" },
+        { "label": "organic visits / day", "value": "500+" }
+      ],
+      "highlights": [
+        {
+          "name": "Platform",
+          "stack": "MERN, GitHub Actions, Stripe",
+          "bullets": [
+            "Shipped ECal, CiP, and EmX from scratch; 10+ organisations onboarded.",
+            "Async API triggers for GitHub Actions CI/CD.",
+            "Public website with SEO — 500+ daily organic visitors.",
+            "Stripe with webhooks, idempotent payments, automated PDF invoices."
+          ]
+        }
+      ]
+    },
+    {
+      "role": "MERN Stack Intern",
+      "company": "IG Techso / ChatGP.se (Sweden)",
+      "logoUrl": "/assets/logos/igtechso.jpg",
+      "logoAlt": "Infinity Genesis Techso (IG Techso) — official company logo",
+      "location": "Indore, India",
+      "start": "2023-03",
+      "end": "2023-08",
+      "themeAccent": "#fb982f",
+      "tags": ["MERN", "Redis", "OpenAI"],
+      "stats": [
+        { "label": "users", "value": "10K+" },
+        { "label": "token usage reduction", "value": "~3×" },
+        { "label": "production products", "value": "2" }
+      ],
+      "highlights": [
+        {
+          "name": "ChatGP.se",
+          "stack": "MERN, Redis, OpenAI",
+          "bullets": [
+            "Multi-tenant ChatGPT token platform; 10,000+ users with admin analytics.",
+            "~3× lower token usage via Redis semantic caching, context memory, and targeted crawling for grounding.",
+            "Full SDLC for two production products."
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Roam Genie",
+      "period": "2026-05",
+      "stack": "React, Node, Firebase, Redis, Gemini, Groq, Google Maps API",
+      "link": "https://github.com/geeky01adarsh",
+      "imageUrl": "/assets/projects/roam-genie.svg",
+      "imageAlt": "Roam Genie — globe with route, plane, and AI sparkle",
+      "tags": ["AI", "Llama 3.3 70B", "Maps", "Firebase", "Redis", "INR budget"],
+      "bullets": [
+        "AI travel engine with Llama 3.3 70B (Groq); sub-3s itineraries; multi-LLM fallback for 99%+ uptime.",
+        "Weather-aware re-planning with Maps + OpenWeather.",
+        "Firebase Auth/Firestore; INR budget engine by category."
+      ]
+    },
+    {
+      "name": "SecureBound",
+      "period": "2025-12",
+      "stack": "C++, STL, Node.js, TypeScript, Boost.Asio, Trezor, nanopb",
+      "imageUrl": "/assets/projects/securebound.svg",
+      "imageAlt": "SecureBound — TLS-style handshake with padlock and ECC curve",
+      "tags": ["TLS 1.3-style", "ECDSA secp256k1", "ZK range proofs", "Boost.Asio", "C++"],
+      "bullets": [
+        "Custom TLS 1.3-style handshake over TCP.",
+        "ECDSA secp256k1 challenge-response; ECC ZK range proofs for bounded values.",
+        "Optimized EC commitment verification pipeline."
+      ]
+    },
+    {
+      "name": "GitPrivy",
+      "period": "2025-11",
+      "stack": "React, Node, MongoDB, Redis, RabbitMQ, AWS",
+      "link": "https://github.com/geeky01adarsh",
+      "imageUrl": "/assets/projects/gitprivy.svg",
+      "imageAlt": "GitPrivy — code window with token chain and key icon",
+      "tags": ["Tokenized share", "MongoDB", "S3", "BullMQ", "Redis", "99.95% uptime"],
+      "bullets": [
+        "Secure code-sharing for hiring; token links; sub-200ms responses.",
+        "MongoDB + S3; 50GB+ data, 99.95% uptime.",
+        "Redis cache, BullMQ jobs; file explorer with live analytics."
+      ]
+    }
+  ],
+  "achievements": [
+    "Multiple Star of the Quarter / Star of the Month at ClearTrail.",
+    "2000+ DSA problems; top 50 globally four times (CodeStudio / CodeChef).",
+    "23 technical articles; 250k+ views.",
+    "5000+ registrations as GeeksforGeeks & Internshala campus ambassador (3.3× goal)."
+  ],
+  "education": [
+    {
+      "school": "Indore Institute of Science and Technology",
+      "degree": "B.Tech Computer Science",
+      "detail": "CGPA 8.58",
+      "end": "2024-06",
+      "location": "Indore, Madhya Pradesh, India",
+      "imageUrl": "/assets/banners/education.svg",
+      "imageAlt": "Stylized college skyline with a sunrise behind columns"
+    }
+  ],
+  "landingSections": [
+    { "id": "hero", "label": "Hello" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "achievements", "label": "Achievements" },
+    { "id": "education", "label": "Education" },
+    { "id": "contact", "label": "Contact" }
+  ]
+}

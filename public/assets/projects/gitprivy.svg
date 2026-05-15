@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="GitPrivy  secure code-sharing token links for hiring">
+  <defs>
+    <linearGradient id="gp-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1238"/>
+      <stop offset="1" stop-color="#0c2a3a"/>
+    </linearGradient>
+    <radialGradient id="gp-glow" cx="0.85" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="506" fill="url(#gp-bg)"/>
+  <rect width="900" height="506" fill="url(#gp-glow)"/>
+  <g transform="translate(110 80)">
+    <rect width="560" height="340" rx="18" fill="#0f1735" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <rect width="560" height="42" rx="18" fill="#1a2140"/>
+    <rect y="32" width="560" height="10" fill="#1a2140"/>
+    <g transform="translate(22 21)">
+      <circle r="6" fill="#fb6a6a"/>
+      <circle cx="20" r="6" fill="#fdc50f"/>
+      <circle cx="40" r="6" fill="#34d399"/>
+    </g>
+    <text x="280" y="26" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" fill="#8ef9ff" text-anchor="middle">gitprivy.share</text>
+    <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="15">
+      <text x="26" y="78" fill="#a78bfa">const</text>
+      <text x="86" y="78" fill="#8ef9ff">share</text>
+      <text x="148" y="78" fill="#eef1ff">= await</text>
+      <text x="222" y="78" fill="#fdc50f">gitPrivy</text>
+      <text x="306" y="78" fill="#eef1ff">()</text>
+      <text x="26" y="110" fill="#8ef9ff">share</text>
+      <text x="80" y="110" fill="#eef1ff">.token(</text>
+      <text x="150" y="110" fill="#fdc50f">"r2k…91x"</text>
+      <text x="244" y="110" fill="#eef1ff">)</text>
+      <text x="26" y="142" fill="#8ef9ff">share</text>
+      <text x="80" y="142" fill="#eef1ff">.expiry(</text>
+      <text x="160" y="142" fill="#fdc50f">"7d"</text>
+      <text x="200" y="142" fill="#eef1ff">)</text>
+      <text x="26" y="174" fill="#8ef9ff">share</text>
+      <text x="80" y="174" fill="#eef1ff">.send()</text>
+      <text x="26" y="216" fill="#22d3ee">// analytics</text>
+      <text x="26" y="244" fill="#9aa4bf">p95</text>
+      <text x="64" y="244" fill="#eef1ff">�</text>
+      <text x="78" y="244" fill="#fdc50f">120ms</text>
+      <text x="148" y="244" fill="#9aa4bf">uptime</text>
+      <text x="216" y="244" fill="#eef1ff">�</text>
+      <text x="232" y="244" fill="#fdc50f">99.95%</text>
+      <text x="26" y="276" fill="#9aa4bf">queue</text>
+      <text x="78" y="276" fill="#eef1ff">�</text>
+      <text x="92" y="276" fill="#fdc50f">BullMQ</text>
+      <text x="160" y="276" fill="#9aa4bf">cache</text>
+      <text x="216" y="276" fill="#eef1ff">�</text>
+      <text x="232" y="276" fill="#fdc50f">Redis</text>
+    </g>
+  </g>
+  <g transform="translate(760 130)">
+    <circle r="38" fill="none" stroke="#fdc50f" stroke-width="6"/>
+    <rect x="32" y="-6" width="84" height="12" rx="4" fill="#fdc50f"/>
+    <rect x="106" y="-6" width="10" height="22" rx="2" fill="#fdc50f"/>
+    <rect x="88" y="-6" width="6" height="18" rx="2" fill="#fdc50f"/>
+  </g>
+  <g stroke="#22d3ee" stroke-opacity="0.55" fill="none" stroke-width="2" stroke-dasharray="6 6">
+    <path d="M 720 170 Q 800 240 720 310 Q 640 380 720 440">
+      <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#fdc50f">
+    <rect x="708" y="294" width="24" height="32" rx="6" fill="#0f1735" stroke="#fdc50f" stroke-width="2"/>
+    <circle cx="720" cy="310" r="3.5"/>
+    <rect x="718" y="313" width="4" height="9" rx="1.5"/>
+  </g>
+  <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" fill="#8ef9ff">
+    <g transform="translate(688 408)">
+      <rect width="180" height="46" rx="10" fill="#0f1735" stroke="#22d3ee" stroke-opacity="0.5"/>
+      <text x="14" y="20" font-size="11" fill="#8ef9ff">STORAGE</text>
+      <text x="14" y="38" fill="#eef1ff">Mongo � S3 � 50GB+</text>
+    </g>
+  </g>
+</svg>

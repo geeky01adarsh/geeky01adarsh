@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="Workspace: terminal, wallet, and Canton network">
+  <defs>
+    <linearGradient id="hr-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1238"/>
+      <stop offset="1" stop-color="#1a0e36"/>
+    </linearGradient>
+    <radialGradient id="hr-glow" cx="0.75" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#fdc50f" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#fdc50f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hr-glow2" cx="0.18" cy="0.85" r="0.55">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="480" rx="22" fill="url(#hr-bg)"/>
+  <rect width="720" height="480" rx="22" fill="url(#hr-glow)"/>
+  <rect width="720" height="480" rx="22" fill="url(#hr-glow2)"/>
+
+  <g transform="translate(48 70)">
+    <rect width="440" height="270" rx="14" fill="#0a0c16" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <rect width="440" height="34" rx="14" fill="#13162a"/>
+    <rect y="24" width="440" height="10" fill="#13162a"/>
+    <g transform="translate(16 17)">
+      <circle r="5" fill="#fb6a6a"/>
+      <circle cx="16" r="5" fill="#fdc50f"/>
+      <circle cx="32" r="5" fill="#34d399"/>
+    </g>
+    <text x="220" y="22" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" fill="#8ef9ff" text-anchor="middle">adarsh@portfolio &#183; zsh</text>
+    <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="13">
+      <text x="18" y="64" fill="#8ef9ff">$</text>
+      <text x="34" y="64" fill="#eef1ff">whoami</text>
+      <text x="18" y="84" fill="#a78bfa">Adarsh Navneet Sinha</text>
+      <text x="18" y="116" fill="#8ef9ff">$</text>
+      <text x="34" y="116" fill="#eef1ff">experience</text>
+      <text x="18" y="136" fill="#fdc50f">&gt; Openvector</text>
+      <text x="120" y="136" fill="#9aa4bf">&#183; Web3 &#183; Canton &#183; DAML</text>
+      <text x="18" y="156" fill="#fdc50f">&gt; ClearTrail</text>
+      <text x="118" y="156" fill="#9aa4bf">&#183; DPI &#183; TLS &#183; VoIP &#183; QUIC</text>
+      <text x="18" y="176" fill="#fdc50f">&gt; Sustainiam</text>
+      <text x="124" y="176" fill="#9aa4bf">&#183; founding &#183; MERN &#183; Stripe</text>
+      <text x="18" y="208" fill="#8ef9ff">$</text>
+      <text x="34" y="208" fill="#eef1ff">stats</text>
+      <text x="18" y="228" fill="#34d399">10M+</text>
+      <text x="58" y="228" fill="#eef1ff">sessions/day</text>
+      <text x="160" y="228" fill="#22d3ee">&#183;</text>
+      <text x="172" y="228" fill="#34d399">300K+</text>
+      <text x="218" y="228" fill="#eef1ff">tx/day</text>
+      <text x="18" y="246" fill="#34d399">45K+</text>
+      <text x="56" y="246" fill="#eef1ff">wallets</text>
+      <text x="118" y="246" fill="#22d3ee">&#183;</text>
+      <text x="130" y="246" fill="#34d399">95%</text>
+      <text x="168" y="246" fill="#eef1ff">VoIP correlation</text>
+      <text x="18" y="262" fill="#8ef9ff">$</text>
+      <text x="34" y="262" fill="#fdc50f">&#9612;<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></text>
+    </g>
+  </g>
+
+  <g transform="translate(540 110)">
+    <text x="0" y="-12" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" fill="#8ef9ff">canton &#183; 3 nodes</text>
+    <g fill="none" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="1.4">
+      <line x1="0" y1="20" x2="60" y2="80"/>
+      <line x1="60" y1="80" x2="120" y2="20"/>
+      <line x1="0" y1="20" x2="120" y2="20"/>
+      <line x1="60" y1="80" x2="60" y2="140"/>
+    </g>
+    <g>
+      <circle cx="0" cy="20" r="10" fill="#0f1735" stroke="#8ef9ff" stroke-width="2"/>
+      <circle cx="120" cy="20" r="10" fill="#0f1735" stroke="#8ef9ff" stroke-width="2"/>
+      <circle cx="60" cy="80" r="14" fill="#0f1735" stroke="#fdc50f" stroke-width="2"/>
+      <circle cx="60" cy="140" r="10" fill="#0f1735" stroke="#a78bfa" stroke-width="2"/>
+    </g>
+    <circle cx="60" cy="80" r="4" fill="#fdc50f">
+      <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(508 270)">
+    <rect width="172" height="92" rx="14" fill="#13162a" stroke="#fdc50f" stroke-opacity="0.5"/>
+    <text x="14" y="22" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" fill="#fdc50f">ZORO &#183; WALLET</text>
+    <text x="14" y="48" font-family="JetBrains Mono, ui-monospace, monospace" font-size="16" fill="#eef1ff">0x4a&#8230;91f</text>
+    <text x="14" y="72" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" fill="#9aa4bf">5 assets &#183; 45K users</text>
+    <g transform="translate(124 64)" fill="none" stroke="#8ef9ff" stroke-width="2">
+      <path d="M 0 8 L 8 16 L 24 0"/>
+    </g>
+  </g>
+
+  <g stroke="#22d3ee" stroke-opacity="0.4" stroke-width="2" fill="none">
+    <path d="M 60 410 L 130 396 L 200 416 L 280 392 L 360 414 L 440 394 L 540 412 L 620 400"/>
+  </g>
+  <g fill="#fdc50f">
+    <circle cx="60" cy="410" r="3"/>
+    <circle cx="130" cy="396" r="3"/>
+    <circle cx="200" cy="416" r="3"/>
+    <circle cx="280" cy="392" r="3"/>
+    <circle cx="360" cy="414" r="3"/>
+    <circle cx="440" cy="394" r="3"/>
+    <circle cx="540" cy="412" r="3"/>
+    <circle cx="620" cy="400" r="3"/>
+  </g>
+  <text x="60" y="446" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" fill="#9aa4bf">DPI &#183; L2&#8211;L7 &#183; ~95% VoIP correlation &#183; sub-ms latency</text>
+</svg>

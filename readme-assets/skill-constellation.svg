@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Skill map: Web3, systems, and backend stack">
+  <defs>
+    <linearGradient id="sc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f23"/>
+      <stop offset="1" stop-color="#12102a"/>
+    </linearGradient>
+    <linearGradient id="sc-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fdc50f"/>
+      <stop offset="1" stop-color="#fb982f"/>
+    </linearGradient>
+    <linearGradient id="sc-cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8ef9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="200" rx="14" fill="url(#sc-bg)"/>
+  <rect x="1" y="1" width="718" height="198" rx="13" fill="none" stroke="#a78bfa" stroke-opacity="0.25"/>
+  <ellipse cx="360" cy="100" rx="118" ry="52" fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1.2"/>
+  <ellipse cx="360" cy="100" rx="168" ry="74" fill="none" stroke="#fdc50f" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="4 6"/>
+  <circle cx="360" cy="100" r="35" fill="#13162a" stroke="url(#sc-gold)" stroke-width="2"/>
+  <text x="360" y="96" text-anchor="middle" fill="#eef1ff" font-family="ui-monospace, JetBrains Mono, monospace" font-size="11" font-weight="700">ME</text>
+<text x="360" y="110" text-anchor="middle" fill="#9aa4bf" font-family="ui-monospace, JetBrains Mono, monospace" font-size="8">research</text>
+  <text x="360" y="120" text-anchor="middle" fill="#9aa4bf" font-family="ui-monospace, JetBrains Mono, monospace" font-size="8">ship &#183; scale</text>
+  <g stroke="#94a3b8" stroke-opacity="0.35" stroke-width="1">
+    <line x1="360" y1="100" x2="220" y2="52"/>
+    <line x1="360" y1="100" x2="180" y2="118"/>
+    <line x1="360" y1="100" x2="210" y2="156"/>
+    <line x1="360" y1="100" x2="500" y2="52"/>
+    <line x1="360" y1="100" x2="540" y2="118"/>
+    <line x1="360" y1="100" x2="510" y2="156"/>
+  </g>
+  <g font-family="ui-monospace, JetBrains Mono, monospace">
+    <g transform="translate(220 52)">
+      <circle r="20" fill="#171b33" stroke="url(#sc-cyan)" stroke-width="1.5"/>
+      <text y="4" text-anchor="middle" fill="#8ef9ff" font-size="9" font-weight="600">C++</text>
+    </g>
+    <g transform="translate(180 118)">
+      <circle r="20" fill="#171b33" stroke="url(#sc-cyan)" stroke-width="1.5"/>
+      <text y="4" text-anchor="middle" fill="#8ef9ff" font-size="8.5" font-weight="600">TS</text>
+    </g>
+    <g transform="translate(210 156)">
+      <circle r="22" fill="#171b33" stroke="url(#sc-gold)" stroke-width="1.5"/>
+      <text y="3" text-anchor="middle" fill="#fdc50f" font-size="8" font-weight="600">Node</text>
+    </g>
+    <g transform="translate(500 52)">
+      <circle r="22" fill="#171b33" stroke="url(#sc-gold)" stroke-width="1.5"/>
+      <text y="3" text-anchor="middle" fill="#fdc50f" font-size="7.5" font-weight="600">Canton</text>
+    </g>
+    <g transform="translate(540 118)">
+      <circle r="20" fill="#171b33" stroke="#a78bfa" stroke-width="1.5"/>
+      <text y="4" text-anchor="middle" fill="#c4b5fd" font-size="8" font-weight="600">DAML</text>
+    </g>
+    <g transform="translate(510 156)">
+      <circle r="20" fill="#171b33" stroke="url(#sc-cyan)" stroke-width="1.5"/>
+      <text y="4" text-anchor="middle" fill="#8ef9ff" font-size="8" font-weight="600">TLS</text>
+    </g>
+
+  </g>
+  <text x="360" y="188" text-anchor="middle" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10">Web3 &#183; Systems &#183; Backend &#183; Networking &#183; R&amp;D </text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="Network stack L2 through L7 with TLS and QUIC traffic">
+  <defs>
+    <linearGradient id="pl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="1" stop-color="#0f1224"/>
+    </linearGradient>
+    <linearGradient id="pl-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fdc50f" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="220" rx="14" fill="url(#pl-bg)"/>
+  <rect x="1" y="1" width="718" height="218" rx="13" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+  <text x="36" y="38" fill="#eef1ff" font-family="ui-monospace, JetBrains Mono, monospace" font-size="13" font-weight="600">DPI &#183; correlation &#183; encryption</text>
+  <text x="36" y="56" fill="#94a3bf" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10">ClearTrail-scale pipelines (sessions, VoIP, QUIC)</text>
+  <g transform="translate(600 28)">
+    <rect x="0" y="10" width="22" height="18" rx="3" fill="none" stroke="#34d399" stroke-width="2"/>
+    <path d="M 5 10 V 6 Q11 0 17 6 V 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="628" y="48" fill="#34d399" font-family="ui-monospace, monospace" font-size="9">TLS</text>
+  <g transform="translate(36 78)" font-family="ui-monospace, JetBrains Mono, monospace" font-size="9">
+    <rect width="200" height="18" rx="4" fill="url(#pl-bar)" opacity="0.9"/>
+    <text x="10" y="12" fill="#0f172a" font-weight="700">L7</text>
+    <text x="36" y="12" fill="#0f172a">HTTP &#183; SIP &#183; DNS</text>
+    <rect y="22" width="200" height="18" rx="4" fill="#1a1f38" stroke="#475569" stroke-width="0.6"/>
+    <text x="10" y="34" fill="#8ef9ff" font-weight="700">L6</text>
+    <text x="36" y="34" fill="#cbd5e1">Presentation / TLS records</text>
+    <rect y="44" width="200" height="18" rx="4" fill="#151a32" stroke="#475569" stroke-width="0.6"/>
+    <text x="10" y="56" fill="#8ef9ff" font-weight="700">L4</text>
+    <text x="36" y="56" fill="#cbd5e1">TCP &#183; UDP &#183; QUIC</text>
+    <rect y="66" width="200" height="18" rx="4" fill="#12172c" stroke="#475569" stroke-width="0.6"/>
+    <text x="10" y="78" fill="#8ef9ff" font-weight="700">L3</text>
+    <text x="36" y="78" fill="#cbd5e1">IP &#183; routing</text>
+    <rect y="88" width="200" height="18" rx="4" fill="#0f1428" stroke="#475569" stroke-width="0.6"/>
+    <text x="10" y="100" fill="#8ef9ff" font-weight="700">L2</text>
+    <text x="36" y="100" fill="#cbd5e1">Ethernet &#183; correlation</text>
+  </g>
+  <g transform="translate(280 86)">
+    <text x="0" y="-6" fill="#64748b" font-family="ui-monospace, monospace" font-size="9">live traffic (abstract)</text>
+    <path d="M0 50 H380" stroke="#334155" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <g fill="#22d3ee" opacity="0.85">
+      <circle cx="40" cy="50" r="4"/>
+      <circle cx="120" cy="46" r="3.5"/>
+      <circle cx="200" cy="54" r="3.5"/>
+      <circle cx="280" cy="48" r="4"/>
+      <circle cx="340" cy="52" r="3"/>
+    </g>
+    <g fill="#fdc50f" opacity="0.7">
+      <rect x="155" y="32" width="28" height="10" rx="2" transform="rotate(-8 169 37)"/>
+      <rect x="235" y="62" width="24" height="8" rx="2" transform="rotate(6 247 66)"/>
+    </g>
+    <text x="0" y="78" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9">QUIC &#183; SRTP &#183; PCAP pipelines</text>
+  </g>
+  
+</svg>

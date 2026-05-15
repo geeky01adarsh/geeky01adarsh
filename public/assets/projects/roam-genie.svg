@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Roam Genie  AI travel planner with multi-LLM fallback">
+  <defs>
+    <linearGradient id="rg-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c123a"/>
+      <stop offset="1" stop-color="#241245"/>
+    </linearGradient>
+    <radialGradient id="rg-glow" cx="0.78" cy="0.32" r="0.55">
+      <stop offset="0" stop-color="#fb982f" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fb982f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rg-route" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8ef9ff"/>
+      <stop offset="0.6" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#fdc50f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="506" fill="url(#rg-bg)"/>
+  <rect width="900" height="506" fill="url(#rg-glow)"/>
+  <g stroke="#22d3ee" stroke-opacity="0.08" fill="none">
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="220" x2="900" y2="220"/>
+    <line x1="0" y1="320" x2="900" y2="320"/>
+    <line x1="0" y1="420" x2="900" y2="420"/>
+    <line x1="150" y1="0" x2="150" y2="506"/>
+    <line x1="350" y1="0" x2="350" y2="506"/>
+    <line x1="550" y1="0" x2="550" y2="506"/>
+    <line x1="750" y1="0" x2="750" y2="506"/>
+  </g>
+  <g transform="translate(290 270)">
+    <circle r="170" fill="#0e1a44" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="2"/>
+    <ellipse rx="170" ry="60" fill="none" stroke="#22d3ee" stroke-opacity="0.22"/>
+    <ellipse rx="170" ry="110" fill="none" stroke="#22d3ee" stroke-opacity="0.22"/>
+    <ellipse rx="60" ry="170" fill="none" stroke="#22d3ee" stroke-opacity="0.22"/>
+    <ellipse rx="110" ry="170" fill="none" stroke="#22d3ee" stroke-opacity="0.22"/>
+    <path d="M -90 -40 q 22 -32 64 -10 q 20 12 0 32 q -32 12 -64 -22 Z" fill="#22d3ee" fill-opacity="0.35"/>
+    <path d="M 16 44 q 32 -22 64 6 q 6 32 -30 28 q -42 -6 -34 -34 Z" fill="#22d3ee" fill-opacity="0.35"/>
+    <path d="M -54 70 q 22 -8 42 6 q 6 18 -22 16 q -24 -2 -20 -22 Z" fill="#22d3ee" fill-opacity="0.28"/>
+  </g>
+  <path d="M 290 210 Q 520 90 740 240" stroke="url(#rg-route)" stroke-width="4" fill="none" stroke-dasharray="10 8" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+  <g transform="translate(740 240) rotate(34)">
+    <path d="M -28 0 L 28 0 L 22 -10 L 36 -10 L 42 -14 L 42 14 L 36 10 L 22 10 Z" fill="#fdc50f"/>
+    <circle r="4" fill="#0b0d18"/>
+  </g>
+  <g>
+    <circle cx="290" cy="210" r="9" fill="#8ef9ff"/>
+    <circle cx="290" cy="210" r="14" fill="none" stroke="#8ef9ff" stroke-opacity="0.5"/>
+    <circle cx="520" cy="120" r="9" fill="#a78bfa"/>
+    <circle cx="520" cy="120" r="14" fill="none" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <circle cx="740" cy="240" r="9" fill="#fdc50f"/>
+    <circle cx="740" cy="240" r="14" fill="none" stroke="#fdc50f" stroke-opacity="0.5"/>
+  </g>
+  <g fill="#a78bfa">
+    <path d="M 620 360 l 3 -10 l 3 10 l 10 3 l -10 3 l -3 10 l -3 -10 l -10 -3 z"/>
+    <path d="M 780 380 l 2 -8 l 2 8 l 8 2 l -8 2 l -2 8 l -2 -8 l -8 -2 z" opacity="0.85"/>
+    <path d="M 200 420 l 2 -7 l 2 7 l 7 2 l -7 2 l -2 7 l -2 -7 l -7 -2 z" opacity="0.7"/>
+  </g>
+  <g font-family="JetBrains Mono, ui-monospace, monospace" fill="#eef1ff" font-size="16">
+    <g transform="translate(620 60)">
+      <rect width="220" height="56" rx="12" fill="#0f1735" stroke="#a78bfa" stroke-opacity="0.55"/>
+      <text x="16" y="24" fill="#8ef9ff" font-size="11">LLM � sub-3s</text>
+      <text x="16" y="45" fill="#fdc50f">Llama 3.3 70B</text>
+    </g>
+    <g transform="translate(60 410)">
+      <rect width="240" height="56" rx="12" fill="#0f1735" stroke="#22d3ee" stroke-opacity="0.45"/>
+      <text x="16" y="24" fill="#8ef9ff" font-size="11">budget � INR</text>
+      <text x="16" y="45" fill="#eef1ff">weather-aware re-plan</text>
+    </g>
+  </g>
+</svg>

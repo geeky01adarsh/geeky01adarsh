@@ -1,0 +1,63 @@
+# https://<owner>.github.io/ is only served from the repo named "<owner>.github.io" (user/org site).
+# Any other repo is project Pages at https://<owner>.github.io/<repo>/ — set BASE_PATH accordingly.
+# Settings → Pages → Source: GitHub Actions
+name: Deploy static content to Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        env:
+          REPO_NAME: ${{ github.event.repository.name }}
+          REPO_OWNER: ${{ github.repository_owner }}
+        run: |
+          expected="${REPO_OWNER}.github.io"
+          if [[ "${REPO_NAME,,}" == "${expected,,}" ]]; then
+            export BASE_PATH="/"
+          else
+            export BASE_PATH="/${REPO_NAME}/"
+          fi
+          echo "Vite base (BASE_PATH): $BASE_PATH"
+          npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

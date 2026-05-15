@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-v2",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:pages": "tsc && BASE_PATH=/portfolioV2/ vite build",
+    "build:pages:profile-repo": "tsc && BASE_PATH=/geeky01adarsh/ vite build",
+    "preview": "vite preview",
+    "preview:pages": "vite preview --base /portfolioV2/",
+    "preview:pages:profile-repo": "vite preview --base /geeky01adarsh/"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  }
+}

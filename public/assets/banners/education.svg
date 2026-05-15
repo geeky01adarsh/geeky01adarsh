@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="Indore Institute of Science and Technology">
+  <defs>
+    <linearGradient id="ed-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1c4a"/>
+      <stop offset="0.55" stop-color="#1d1545"/>
+      <stop offset="1" stop-color="#0a1238"/>
+    </linearGradient>
+    <linearGradient id="ed-sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdc50f"/>
+      <stop offset="1" stop-color="#fb982f"/>
+    </linearGradient>
+    <linearGradient id="ed-building" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2140"/>
+      <stop offset="1" stop-color="#0a1238"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="560" fill="url(#ed-bg)"/>
+
+  <!-- sun -->
+  <circle cx="500" cy="220" r="80" fill="url(#ed-sun)" opacity="0.9"/>
+  <circle cx="500" cy="220" r="120" fill="none" stroke="#fdc50f" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="500" cy="220" r="160" fill="none" stroke="#fdc50f" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- stars -->
+  <g fill="#8ef9ff">
+    <circle cx="120" cy="80" r="1.8"/>
+    <circle cx="220" cy="120" r="1.4"/>
+    <circle cx="320" cy="60" r="1.6"/>
+    <circle cx="780" cy="100" r="1.8"/>
+    <circle cx="880" cy="140" r="1.4"/>
+    <circle cx="940" cy="60" r="1.6"/>
+  </g>
+
+  <!-- ground -->
+  <rect x="0" y="420" width="1000" height="140" fill="#070c20"/>
+
+  <!-- building -->
+  <g transform="translate(280 240)" fill="url(#ed-building)" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2">
+    <!-- main facade -->
+    <rect x="0" y="60" width="440" height="180"/>
+    <!-- steps -->
+    <rect x="-30" y="240" width="500" height="14" fill="#13162a" stroke-opacity="0.3"/>
+    <rect x="-50" y="254" width="540" height="14" fill="#0c1432" stroke-opacity="0.3"/>
+    <!-- pediment -->
+    <polygon points="0,60 220,0 440,60" fill="#1a2140"/>
+    <!-- dome -->
+    <ellipse cx="220" cy="36" rx="44" ry="50" fill="#13162a"/>
+    <rect x="216" y="-26" width="8" height="20" fill="#fdc50f"/>
+    <circle cx="220" cy="-30" r="4" fill="#fdc50f"/>
+  </g>
+
+  <!-- columns -->
+  <g fill="#13162a" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.2">
+    <rect x="320" y="320" width="22" height="100"/>
+    <rect x="380" y="320" width="22" height="100"/>
+    <rect x="440" y="320" width="22" height="100"/>
+    <rect x="500" y="320" width="22" height="100"/>
+    <rect x="560" y="320" width="22" height="100"/>
+    <rect x="620" y="320" width="22" height="100"/>
+    <rect x="680" y="320" width="22" height="100"/>
+  </g>
+
+  <!-- windows glow -->
+  <g fill="#fdc50f" opacity="0.55">
+    <rect x="350" y="340" width="14" height="38" rx="2"/>
+    <rect x="410" y="340" width="14" height="38" rx="2"/>
+    <rect x="470" y="340" width="14" height="38" rx="2"/>
+    <rect x="530" y="340" width="14" height="38" rx="2"/>
+    <rect x="590" y="340" width="14" height="38" rx="2"/>
+    <rect x="650" y="340" width="14" height="38" rx="2"/>
+  </g>
+
+  <!-- code/circuit motif at corner -->
+  <g transform="translate(60 460)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="14" fill="#22d3ee">
+    <text y="0">{ degree: "B.Tech CSE",</text>
+    <text y="22">  cgpa: 8.58,</text>
+    <text y="44">  city: "Indore" }</text>
+  </g>
+
+  <!-- diploma badge -->
+  <g transform="translate(820 460)">
+    <circle r="34" fill="#0f1735" stroke="#fdc50f" stroke-width="2"/>
+    <path d="M -14 -4 L -4 6 L 16 -12" stroke="#34d399" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text y="56" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" fill="#9aa4bf">graduated 2024</text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="SecureBound  TLS handshake and ECC ZK range proofs">
+  <defs>
+    <linearGradient id="sb-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1238"/>
+      <stop offset="1" stop-color="#1a0e36"/>
+    </linearGradient>
+    <linearGradient id="sb-arc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#fdc50f"/>
+    </linearGradient>
+    <radialGradient id="sb-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdc50f" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fdc50f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="506" fill="url(#sb-bg)"/>
+  <circle cx="450" cy="260" r="200" fill="url(#sb-glow)"/>
+  <g fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="2">
+    <path d="M 50 380 C 200 380 200 120 350 120 S 550 380 700 380 850 120 850 120"/>
+    <path d="M 50 320 C 200 320 200 180 350 180 S 550 320 700 320 850 180 850 180"/>
+    <path d="M 50 260 C 200 260 200 240 350 240 S 550 260 700 260 850 240 850 240" stroke-opacity="0.12"/>
+  </g>
+  <g fill="#fdc50f">
+    <circle cx="150" cy="350" r="4"/>
+    <circle cx="240" cy="240" r="4"/>
+    <circle cx="340" cy="130" r="5.5"/>
+    <circle cx="460" cy="210" r="4"/>
+    <circle cx="560" cy="320" r="4"/>
+    <circle cx="700" cy="380" r="6"/>
+    <circle cx="800" cy="220" r="4"/>
+  </g>
+  <g transform="translate(450 270)">
+    <circle r="120" fill="none" stroke="#8ef9ff" stroke-opacity="0.3" stroke-width="2"/>
+    <circle r="86" fill="#0f1735" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.5"/>
+    <g transform="translate(-32 -42)">
+      <rect width="64" height="48" y="22" rx="8" fill="#fdc50f"/>
+      <path d="M 12 22 V 12 a 20 20 0 0 1 40 0 V 22" fill="none" stroke="#fdc50f" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="32" cy="44" r="6" fill="#0a1238"/>
+      <rect x="30" y="48" width="4" height="14" rx="2" fill="#0a1238"/>
+    </g>
+  </g>
+  <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="13">
+    <g transform="translate(40 56)">
+      <rect width="140" height="56" rx="10" fill="#0f1735" stroke="#22d3ee" stroke-opacity="0.55"/>
+      <text x="14" y="24" fill="#8ef9ff" font-size="11">ROLE</text>
+      <text x="14" y="44" fill="#eef1ff">CLIENT</text>
+      <circle cx="120" cy="36" r="4" fill="#34d399"/>
+    </g>
+    <g transform="translate(720 56)">
+      <rect width="140" height="56" rx="10" fill="#0f1735" stroke="#22d3ee" stroke-opacity="0.55"/>
+      <text x="14" y="24" fill="#8ef9ff" font-size="11">ROLE</text>
+      <text x="14" y="44" fill="#eef1ff">SERVER</text>
+      <circle cx="120" cy="36" r="4" fill="#fdc50f"/>
+    </g>
+    <g transform="translate(40 414)">
+      <rect width="200" height="48" rx="10" fill="#0f1735" stroke="#a78bfa" stroke-opacity="0.55"/>
+      <text x="14" y="20" fill="#a78bfa" font-size="11">CIPHER</text>
+      <text x="14" y="38" fill="#eef1ff">ECDSA � secp256k1</text>
+    </g>
+    <g transform="translate(660 414)">
+      <rect width="200" height="48" rx="10" fill="#0f1735" stroke="#fdc50f" stroke-opacity="0.55"/>
+      <text x="14" y="20" fill="#fdc50f" font-size="11">PROOF</text>
+      <text x="14" y="38" fill="#eef1ff">ZK range � bounded</text>
+    </g>
+  </g>
+  <g stroke-width="2.4" fill="none" stroke="url(#sb-arc)" stroke-linecap="round">
+    <path d="M 180 90 Q 450 30 720 90"/>
+  </g>
+  <path d="M 716 84 l 12 6 l -12 6 z" fill="#fdc50f"/>
+</svg>
