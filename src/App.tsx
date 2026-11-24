@@ -1,16 +1,21 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { loadPortfolio } from "./api/loadPortfolio";
-import { CustomCursor, shouldShowCustomCursor } from "./components/CustomCursor";
-import { InteractiveBackground } from "./components/InteractiveBackground";
+import { CommandPalette } from "./components/layout/CommandPalette";
+import { ScrollProgress } from "./components/layout/ScrollProgress";
 import { LandingPage } from "./components/LandingPage";
 import { ShellView } from "./components/ShellView";
-import { ThemeToggle } from "./components/ThemeToggle";
-import { useGamification } from "./hooks/useGamification";
+import { SiteContext, type SiteContextValue } from "./components/site/shared";
+import { SiteFooter } from "./components/site/SiteFooter";
+import { SiteHeader } from "./components/site/SiteHeader";
+import { NetworkGraphCanvas } from "./components/ui/NetworkGraphCanvas";
+import { useCommandPalette } from "./hooks/useCommandPalette";
 import { usePortfolioThemes } from "./hooks/usePortfolioThemes";
+import { applyDesignTokens, applyFonts } from "./lib/applyDesign";
 import { applyPortfolioTheme } from "./lib/applyPortfolioTheme";
 import { applySeo } from "./lib/applySeo";
 import type { PortfolioConfig } from "./types";
 import "./styles/global.css";
+import "./styles/site.css";
 
 type Mode = "landing" | "shell";
 
@@ -18,15 +23,11 @@ export default function App() {
   const [config, setConfig] = useState<PortfolioConfig | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [mode, setMode] = useState<Mode>("landing");
-  const { save, awardShellCommand, revealLandingSection, achievementsState } = useGamification(config);
-  const {
-    themesEnabled,
-    shellDarkChrome,
-    appearanceChoice,
-    setAppearanceChoice,
-    surfaceMode,
-    labels,
-  } = usePortfolioThemes(config, mode);
+  const { open: paletteOpen, close: closePalette, toggle: togglePalette } = useCommandPalette();
+  const { themesEnabled, shellDarkChrome, setAppearanceChoice, surfaceMode, landingResolved } = usePortfolioThemes(
+    config,
+    mode,
+  );
 
   useEffect(() => {
     loadPortfolio()
@@ -37,99 +38,93 @@ export default function App() {
   useEffect(() => {
     if (!config) return;
     applyPortfolioTheme(config, surfaceMode);
+    const palette = applyDesignTokens(config, surfaceMode === "light" ? "light" : "dark");
+    if (!config.seo?.themeColor) {
+      document.head.querySelector('meta[name="theme-color"]')?.setAttribute("content", palette.bgPrimary);
+    }
   }, [config, surfaceMode]);
 
   useEffect(() => {
     if (!config) return;
+    applyFonts(config);
     applySeo(config);
   }, [config]);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [mode]);
+
+  const site = useMemo<SiteContextValue | null>(
+    () => (config ? { config, sections: (config.sections ?? []).filter((s) => s.enabled !== false) } : null),
+    [config],
+  );
+
   if (error) {
     return (
-      <div className="app-shell">
+      <div className="app-status">
         <p>{error}</p>
       </div>
     );
   }
 
-  if (!config) {
+  if (!config || !site) {
     return (
-      <div className="app-shell">
-        <p className="muted">Loading portfolio…</p>
+      <div className="app-status">
+        <span className="app-spinner" aria-hidden="true" />
+        <p>Loading…</p>
       </div>
     );
   }
 
+  const effects = config.design?.effects ?? {};
+  const background = effects.background ?? "grid";
   const terminalChrome = mode === "shell" && shellDarkChrome;
-  const customCursor = shouldShowCustomCursor(config.visual);
 
   return (
-    <div
-      className={`app-shell${terminalChrome ? " app-shell--terminal" : ""}${customCursor ? " app-shell--custom-cursor" : ""}`}
-    >
-      <InteractiveBackground visual={config.visual} />
-      <div className="bg-blur" aria-hidden />
-      <CustomCursor visual={config.visual} />
-      <header className="top-bar">
-        <div className="brand">
-          <strong>{config.meta.siteTitle}</strong>
-          <span>{config.meta.tagline}</span>
-        </div>
-        <div className="hud">
-          <span className="pill">
-            XP <strong>{save.xp}</strong>
-          </span>
-          <span className="pill pill-muted">
-            Achievements <strong>{achievementsState.filter((a) => a.unlocked).length}</strong>/
-            {achievementsState.length}
-          </span>
-          {themesEnabled ? (
-            <ThemeToggle
-              choice={appearanceChoice}
-              onChange={setAppearanceChoice}
-              labels={labels}
-              inactive={terminalChrome}
-              title={
-                terminalChrome
-                  ? "Shell uses the `shell` palette from portfolio.json. Your choice applies on Landing."
-                  : undefined
-              }
-            />
-          ) : null}
-          <div className="toggle" role="group" aria-label="View mode">
-            <button type="button" className={mode === "landing" ? "active" : ""} onClick={() => setMode("landing")}>
-              Landing
-            </button>
-            <button type="button" className={mode === "shell" ? "active" : ""} onClick={() => setMode("shell")}>
-              Shell
-            </button>
+    <SiteContext.Provider value={site}>
+      <div className={`site-root${terminalChrome ? " is-shell" : ""}`}>
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
+
+        {mode === "landing" && background === "grid" ? <div className="bg-grid-lines" aria-hidden="true" /> : null}
+        {mode === "landing" && background === "network" ? (
+          <div className="bg-network" aria-hidden="true">
+            <NetworkGraphCanvas enabled />
           </div>
-        </div>
-      </header>
+        ) : null}
 
-      <main id="main-content">
-        {mode === "landing" ? (
-          <LandingPage
-            config={config}
-            revealedIds={save.revealedLandingSectionIds}
-            onRevealSection={revealLandingSection}
-          />
-        ) : (
-          <ShellView config={config} onCommand={awardShellCommand} />
-        )}
+        {mode === "landing" && effects.scrollProgress !== false ? <ScrollProgress /> : null}
 
-        <section className="card" style={{ marginTop: "1rem" }}>
-          <h3 style={{ marginTop: 0 }}>Achievement log</h3>
-          <ul className="list" style={{ listStyle: "none", paddingLeft: 0 }}>
-            {achievementsState.map((a) => (
-              <li key={a.id} style={{ opacity: a.unlocked ? 1 : 0.45 }}>
-                <strong>{a.title}</strong> — {a.description}
-                {a.unlocked ? " ✓" : " (locked)"}
-              </li>
-            ))}
-          </ul>
-        </section>
-      </main>
-    </div>
+        <SiteHeader
+          mode={mode}
+          onModeChange={setMode}
+          onOpenPalette={togglePalette}
+          themesEnabled={themesEnabled}
+          isLight={landingResolved === "light"}
+          onToggleTheme={() => setAppearanceChoice(landingResolved === "light" ? "dark" : "light")}
+        />
+
+        <CommandPalette
+          open={paletteOpen}
+          onClose={closePalette}
+          config={config}
+          sections={site.sections}
+          onModeChange={setMode}
+        />
+
+        <main id="main-content" className="site-main">
+          {mode === "landing" ? (
+            <LandingPage />
+          ) : (
+            <div className="shell-wrap">
+              <ShellView config={config} />
+            </div>
+          )}
+        </main>
+
+        {mode === "landing" ? <SiteFooter /> : null}
+      </div>
+    </SiteContext.Provider>
   );
 }

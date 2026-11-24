@@ -1,22 +1,142 @@
 /** Small metric badge — rendered as a chip on the landing page. */
 export type Stat = {
-  /** Short label, e.g. "wallet users". */
   label: string;
-  /** Eye-catching value, e.g. "45K+". */
   value: string;
 };
 
-export type Project = {
+export type Metric = {
+  id: string;
+  label: string;
+  value: number;
+  suffix?: string;
+  prefix?: string;
+  decimals?: number;
+};
+
+export type HeroCta = {
+  label: string;
+  href: string;
+  variant: "primary" | "secondary" | "ghost";
+  external?: boolean;
+};
+
+export type HeroConfig = {
+  headline: string;
+  subheading: string;
+  availability?: string;
+  ctas: HeroCta[];
+  badges?: string[];
+};
+
+export type ExpertiseCard = {
+  id: string;
+  title: string;
+  description: string;
+  skills: string[];
+  accent?: string;
+};
+
+export type ArchitectureNode = {
+  id: string;
+  label: string;
+  x: number;
+  y: number;
+  type?: "source" | "process" | "store" | "sink";
+};
+
+export type ArchitectureEdge = {
+  from: string;
+  to: string;
+  label?: string;
+};
+
+export type ArchitectureDiagram = {
+  id: string;
+  title: string;
+  description: string;
+  nodes: ArchitectureNode[];
+  edges: ArchitectureEdge[];
+};
+
+export type TechSkill = {
   name: string;
+  proficiency: number;
+};
+
+export type TechStackCategory = {
+  id: string;
+  label: string;
+  skills: TechSkill[];
+};
+
+export type WritingArticle = {
+  title: string;
+  url: string;
+  platform?: string;
+  date?: string;
+  views?: string;
+  excerpt?: string;
+};
+
+export type Testimonial = {
+  quote: string;
+  author: string;
+  role: string;
+  company?: string;
+};
+
+export type ProjectLink = {
+  label: string;
+  href: string;
+};
+
+/** Label / value pair shown in the project "facts" tile, e.g. ["USERS", "45K+"]. */
+export type ProjectHighlight = {
+  label: string;
+  value: string;
+};
+
+/** Shown in the media tile when a project has no image/video. */
+export type ProjectMockup = {
+  type: "tiles" | "quote" | "bars";
+  icon?: string;
+  tiles?: { value: string; label: string }[];
+  quote?: string;
+  bars?: number[];
+  left?: string;
+  right?: string;
+};
+
+export type FeaturedProject = {
+  id?: string;
+  name: string;
+  /** Small kicker above the title, e.g. "Web3 / Wallet". */
+  category?: string;
+  /** Mono badge on the media tile, e.g. "PRODUCTION · 45K+ USERS". */
+  badge?: string;
+  /** Short headline for the about tile. Falls back to `problem`. */
+  subtitle?: string;
+  /** Body copy for the about tile. Falls back to `architecture`. */
+  description?: string;
+  video?: string;
+  mockup?: ProjectMockup;
+  highlights?: ProjectHighlight[];
+  links?: ProjectLink[];
   period?: string;
   stack: string;
   link?: string;
-  /** Optional cover image (URL or `/path` under `public/`). */
+  demo?: string;
   imageUrl?: string;
   imageAlt?: string;
-  /** Optional tech tags rendered as chips on the project card. Falls back to `stack`. */
   tags?: string[];
-  bullets: string[];
+  problem: string;
+  architecture: string;
+  results: string[];
+  featured?: boolean;
+};
+
+export type Project = FeaturedProject & {
+  bullets?: string[];
 };
 
 export type WorkHighlight = {
@@ -28,23 +148,23 @@ export type WorkHighlight = {
 export type Experience = {
   role: string;
   company: string;
-  /** Optional logo (URL or `/file` in `public/`). */
   logoUrl?: string;
   logoAlt?: string;
   location: string;
   start: string;
   end: string;
-  /** Optional brand accent applied to the role card (CSS color string). */
   themeAccent?: string;
-  /** Optional top-level tags rendered as chips below the role headline. */
   tags?: string[];
-  /** Optional metric chips (e.g. `{ label: "tx / day", value: "300K+" }`). */
   stats?: Stat[];
   highlights: WorkHighlight[];
 };
 
 export type Education = {
   school: string;
+  /** Big number on the card, e.g. "8.58". */
+  score?: string;
+  scoreLabel?: string;
+  start?: string;
   degree: string;
   detail?: string;
   end: string;
@@ -58,52 +178,25 @@ export type LandingSection = {
   label: string;
 };
 
-export type AchievementDef = {
-  id: string;
-  title: string;
-  description: string;
-  xpBonus: number;
-};
-
-export type GamificationConfig = {
-  xpPerShellCommand: number;
-  xpPerLandingSection: number;
-  achievements: AchievementDef[];
-};
-
-/** Optional SEO overrides — edit `public/portfolio.json` to tune title, description, and keywords. */
 export type SeoConfig = {
-  /** Production origin without trailing slash, e.g. https://yoursite.netlify.app — used for canonical & JSON-LD `url`. */
   siteUrl?: string;
-  /** Full `<title>`; if omitted, built from `meta.siteTitle` + `titleSuffix` / tagline. */
   pageTitle?: string;
-  /** Used in the default title pattern when `pageTitle` is not set. */
   titleSuffix?: string;
-  /** Primary meta description (~150–165 chars recommended). */
   description?: string;
-  /** Curated keywords and phrases (also merged with skills, employers, and projects at runtime). */
   keywords?: string[];
-  /** Open Graph / Twitter image URL. If empty, a GitHub avatar is inferred from `meta.links.github`. */
   ogImage?: string;
   twitterSite?: string;
   twitterCreator?: string;
   robots?: string;
   googlebot?: string;
   themeColor?: string;
-  /** e.g. en_IN */
   locale?: string;
-  /** Structured data `jobTitle` override (defaults to latest role from `experience`). */
   jsonLdJobTitle?: string;
 };
 
-/**
- * UI color tokens (camelCase in JSON). Maps to CSS variables on `:root` — see `applyPortfolioTheme`.
- * Omit keys to use built-in defaults for that variant (`light` / `dark` / `shell`).
- */
 export type ThemePalette = {
   bg?: string;
   surface?: string;
-  /** Primary text (maps to legacy `--black`). */
   text?: string;
   muted?: string;
   blueCard?: string;
@@ -130,16 +223,9 @@ export type ThemePalette = {
 export type AppearanceMode = "light" | "dark" | "system";
 
 export type ThemesConfig = {
-  /** When false, landing stays on built-in light tokens and the appearance toggle is hidden. Shell may still use dark chrome; see `shellPageUsesDarkChrome`. */
   enabled?: boolean;
-  /** Initial choice if nothing is stored yet. */
   defaultMode?: AppearanceMode;
-  /**
-   * When true (default), Shell view applies the `shell` palette to the **entire** page (header, cards, achievements).
-   * Set false to keep landing appearance while only the terminal block stays dark.
-   */
   shellPageUsesDarkChrome?: boolean;
-  /** `localStorage` key for Light / Dark / Auto. */
   appearanceStorageKey?: string;
   labels?: {
     light?: string;
@@ -149,78 +235,225 @@ export type ThemesConfig = {
   definitions?: {
     light?: ThemePalette;
     dark?: ThemePalette;
-    /** Merged on top of resolved `dark` when Shell + `shellPageUsesDarkChrome`. */
     shell?: ThemePalette;
   };
 };
 
-/** Cursor, interactive background, and imagery — all optional; configure in `public/portfolio.json` → `visual`. */
 export type VisualConfig = {
-  cursor?: {
-    /** Default true. Set false to use the system cursor. */
-    enabled?: boolean;
-    /** Diameter of the custom cursor in CSS px (clamped ~20–96). Default 40. */
-    sizePx?: number;
-    /** @deprecated Use `sizePx`. If set without `sizePx`, used as diameter. */
-    ringPx?: number;
-    /** @deprecated Removed from UI; ignored if present. */
-    dotPx?: number;
-  };
   background?: {
-    /** Default true. Set false to disable the animated backdrop. */
     enabled?: boolean;
-    /** `aurora` (warm gradients) or `mesh` (cool grid wash). `none` disables. */
-    style?: "aurora" | "mesh" | "none";
-    /** How far layers track the pointer (0–1). Default ~0.55. */
-    parallaxStrength?: number;
+    style?: "network" | "none";
   };
   hero?: {
     portraitUrl?: string;
     portraitAlt?: string;
-    /** When true (default) and `portraitUrl` is omitted, uses GitHub profile picture from `meta.links.github`. */
     useGithubAvatarFallback?: boolean;
-    asideImageUrl?: string;
-    asideImageAlt?: string;
-  };
-  skillsBanner?: {
-    url?: string;
-    alt?: string;
-  };
-  contactBanner?: {
-    url?: string;
-    alt?: string;
   };
 };
 
+/* ───────────────────────── Design system (v3) ───────────────────────── */
+
+/** Every key maps 1:1 to a CSS variable: `bgPrimary` → `--bg-primary`. */
+export type DesignPalette = Partial<{
+  bgPrimary: string;
+  bgSecondary: string;
+  bgCard: string;
+  bgCardHover: string;
+  bgNav: string;
+  borderSubtle: string;
+  borderCard: string;
+  borderHover: string;
+  accent: string;
+  accentHover: string;
+  accentLight: string;
+  accentGlow: string;
+  accentAlt: string;
+  textPrimary: string;
+  textSecondary: string;
+  textMuted: string;
+  live: string;
+  shadowMd: string;
+  shadowLg: string;
+}>;
+
+export type DesignFonts = {
+  /** Google Fonts family names. Loaded automatically. */
+  sans?: string;
+  mono?: string;
+  /** Giant condensed headline (About title). */
+  display?: string;
+  /** Script/serif accent (name under the About portrait). */
+  serif?: string;
+};
+
+export type DesignEffects = {
+  /** Background behind the page. */
+  background?: "grid" | "network" | "none";
+  /** Mouse-follow 3D tilt on the hero portrait. */
+  portraitTilt?: boolean;
+  /** Letters lift and recolor near the pointer. */
+  waveText?: boolean;
+  /** Project cards stick and stack while scrolling (desktop). */
+  stackingProjects?: boolean;
+  /** Poppable glass bubbles in the footer. */
+  footerBubbles?: boolean;
+  /** Thin progress bar at the top of the page. */
+  scrollProgress?: boolean;
+};
+
+export type DesignConfig = {
+  fonts?: DesignFonts;
+  palettes?: { dark?: DesignPalette; light?: DesignPalette };
+  effects?: DesignEffects;
+};
+
+export type ProfileLink = {
+  label: string;
+  href: string;
+};
+
+export type ProfileConfig = {
+  name: string;
+  /** Short text in the nav avatar circle. Defaults to initials of `name`. */
+  initials?: string;
+  /** Green-dot status in the nav, e.g. "Available for roles". Empty string hides it. */
+  status?: string;
+  greeting: string;
+  role: string;
+  bio: string;
+  /** Path in /public or full URL. Falls back to the GitHub avatar. */
+  portrait?: string;
+  portraitAlt?: string;
+  /** "circle" frames a normal photo; "cutout" suits a transparent PNG of you. */
+  portraitStyle?: "circle" | "cutout";
+  links?: ProfileLink[];
+};
+
+type SectionBase = {
+  /** DOM id and nav anchor. */
+  id: string;
+  /** Set false to hide without deleting. */
+  enabled?: boolean;
+  /** Nav label. Omit to keep the section out of the nav. */
+  label?: string;
+  /** Small mono label above the title: "02 / <kicker>". */
+  kicker?: string;
+  /** One string, or [bold, muted] for the two-tone heading. */
+  title?: string | string[];
+  lead?: string;
+};
+
+export type HeroSection = SectionBase & { type: "hero" };
+export type AboutSection = SectionBase & {
+  type: "about";
+  /** Bio override; defaults to profile.bio. */
+  bio?: string;
+  portrait?: string;
+  /** Links at the bottom corners of the card. */
+  links?: ProfileLink[];
+};
+export type MetricsSection = SectionBase & { type: "metrics" };
+export type ProjectsSection = SectionBase & { type: "projects" };
+export type ExperienceSection = SectionBase & { type: "experience" };
+export type SkillWheelCategory = {
+  id: string;
+  /** Text on the wheel segment; each entry is a line. */
+  lines: string[];
+  title: string;
+  items: string[];
+};
+export type SkillsSection = SectionBase & {
+  type: "skills";
+  categories?: SkillWheelCategory[];
+  hint?: string;
+};
+export type WritingSection = SectionBase & { type: "writing"; moreHref?: string; moreLabel?: string };
+export type EducationSection = SectionBase & { type: "education" };
+export type Certificate = {
+  id: string;
+  title: string;
+  issuer: string;
+  type?: string;
+  date?: string;
+  facts?: string[];
+  image?: string;
+  file?: string;
+  verify?: string;
+};
+export type CertificationsSection = SectionBase & {
+  type: "certifications";
+  items?: Certificate[];
+  emptyText?: string;
+};
+export type AchievementsSection = SectionBase & { type: "achievements" };
+export type ContactSection = SectionBase & {
+  type: "contact";
+  primary?: ProfileLink;
+  links?: ProfileLink[];
+};
+
+export type SiteSection =
+  | HeroSection
+  | AboutSection
+  | MetricsSection
+  | ProjectsSection
+  | ExperienceSection
+  | SkillsSection
+  | WritingSection
+  | EducationSection
+  | CertificationsSection
+  | AchievementsSection
+  | ContactSection;
+
+export type NavConfig = {
+  showShellToggle?: boolean;
+  showSearch?: boolean;
+};
+
+export type FooterConfig = {
+  thanks?: string;
+  tagline?: string;
+  bubbleHint?: string;
+  copyright?: string;
+};
+
 export type PortfolioConfig = {
+  design?: DesignConfig;
+  profile: ProfileConfig;
+  sections: SiteSection[];
+  nav?: NavConfig;
+  footer?: FooterConfig;
   meta: {
     siteTitle: string;
     tagline: string;
     location: string;
-    /** Optional phone (omit to keep it private). */
     phone?: string;
     email: string;
     links: { linkedin: string; github: string };
     shellWelcome: string;
   };
   seo?: SeoConfig;
-  /** Accent overrides (gradient / blur) — applied on top of the active palette. */
   theme?: {
     accentFrom?: string;
     accentTo?: string;
     blurTint?: string;
   };
-  /** Light / dark / shell page theming — configure in `public/portfolio.json`. */
   themes?: ThemesConfig;
-  /** Cursor, motion background, and image URLs for a richer landing page. */
   visual?: VisualConfig;
-  /** Top-level metric chips shown under the hero (résumé "wow numbers"). */
-  heroStats?: Stat[];
-  gamification: GamificationConfig;
+  hero: HeroConfig;
+  metrics: Metric[];
+  expertise: ExpertiseCard[];
+  architectureDiagrams: ArchitectureDiagram[];
+  techStack: TechStackCategory[];
+  writing: WritingArticle[];
+  writingStats?: { articles: number; views: string };
+  testimonials?: Testimonial[];
+  availability?: string;
+  resumeUrl?: string;
   skills: Record<string, string[]>;
   experience: Experience[];
-  projects: Project[];
+  projects: FeaturedProject[];
   achievements: string[];
   education: Education[];
-  landingSections: LandingSection[];
+  landingSections?: LandingSection[];
 };

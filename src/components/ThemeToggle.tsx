@@ -4,7 +4,6 @@ type Props = {
   choice: AppearanceMode;
   onChange: (next: AppearanceMode) => void;
   labels: { light: string; dark: string; system: string };
-  /** When true (e.g. full-page shell), control is visually disabled — preference still applies on Landing. */
   inactive?: boolean;
   title?: string;
 };
@@ -12,20 +11,25 @@ type Props = {
 export function ThemeToggle({ choice, onChange, labels, inactive, title }: Props) {
   return (
     <div
-      className={`toggle theme-toggle${inactive ? " toggle--disabled" : ""}`}
+      className={`hidden items-center rounded-lg border border-white/10 p-0.5 sm:flex ${inactive ? "opacity-50" : ""}`}
       role="group"
       aria-label="Color theme"
       title={title}
     >
-      <button type="button" className={choice === "light" ? "active" : ""} onClick={() => onChange("light")} title={labels.light}>
-        {labels.light}
-      </button>
-      <button type="button" className={choice === "dark" ? "active" : ""} onClick={() => onChange("dark")} title={labels.dark}>
-        {labels.dark}
-      </button>
-      <button type="button" className={choice === "system" ? "active" : ""} onClick={() => onChange("system")} title={labels.system}>
-        {labels.system}
-      </button>
+      {(["light", "dark", "system"] as const).map((mode) => (
+        <button
+          key={mode}
+          type="button"
+          disabled={inactive}
+          className={`rounded-md px-2 py-1 text-[10px] transition-colors ${
+            choice === mode ? "bg-white/10 text-foreground" : "text-muted hover:text-foreground"
+          }`}
+          onClick={() => onChange(mode)}
+          title={labels[mode]}
+        >
+          {labels[mode]}
+        </button>
+      ))}
     </div>
   );
 }

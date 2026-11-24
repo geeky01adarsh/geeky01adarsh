@@ -106,7 +106,7 @@ export function applySeo(config: PortfolioConfig) {
 
   const description =
     seo?.description ??
-    `${config.meta.siteTitle} — ${config.meta.tagline}. Based in ${config.meta.location}. Web3, backend, systems, and networking.`;
+    `${config.meta.siteTitle} — ${config.hero?.subheading ?? config.meta.tagline}. Based in ${config.meta.location}.`;
 
   const keywords = mergeKeywords(config, seo?.keywords);
 
@@ -164,37 +164,31 @@ function defaultKeywords(config: PortfolioConfig): string {
   const base = [
     config.meta.siteTitle,
     "geeky01adarsh",
-    "software engineer",
-    "full stack developer",
     "backend engineer",
-    "Web3 engineer",
-    "blockchain developer",
-    "Canton Network",
-    "DAML",
-    "Solidity",
+    "systems engineer",
+    "distributed systems",
+    "AI engineer",
+    "infrastructure engineer",
     "Node.js",
     "TypeScript",
     "C++",
-    "network security",
+    "Rust",
+    "network analytics",
     "DPI",
     "TLS",
-    "Indore",
-    "Delhi NCR",
-    "R&D",
-    "Networking",
+    "RAG",
+    "LLM applications",
+    "AWS",
+    "Docker",
+    "Kubernetes",
     "Canton Network",
-    "DAML",
-    "blockchain",
-    "Node.js backend",
-    "TypeScript",
-    "C++ systems programming",
     "Openvector",
     "ClearTrail",
     "Sustainiam",
-    "IG Techso",
     "Zoro Wallet",
-    "Trade.fast",
-    "full stack engineer",
+    "SecureBound",
+    "GitPrivy",
+    "Delhi NCR",
     "India",
     "portfolio",
   ];

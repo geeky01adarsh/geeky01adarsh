@@ -84,29 +84,29 @@ export const BUILTIN_LIGHT: ResolvedThemeTokens = {
 };
 
 export const BUILTIN_DARK: ResolvedThemeTokens = {
-  bg: "#0b0d18",
-  surface: "#13162a",
-  text: "#eef1ff",
-  muted: "#9aa4bf",
-  blueCard: "#1a1f38",
-  purple: "rgba(168, 85, 247, 0.28)",
+  bg: "#0a0a0f",
+  surface: "#13151c",
+  text: "#f8fafc",
+  muted: "#94a3b8",
+  blueCard: "#161922",
+  purple: "rgba(139, 92, 246, 0.22)",
   boxShadow: "0 22px 55px rgb(0 0 0 / 55%)",
-  orange: "#fca61f",
-  orangeCard: "rgba(252, 166, 31, 0.35)",
-  blurTint: "#2d1f4d",
-  yellow: "#f5c32c",
-  toggleTrackBg: "#1a1f38",
-  ghostBtnBg: "#1b2039",
-  ghostBtnHover: "#242a4a",
-  pillBg: "#171b33",
-  terminalBg: "#0a0c16",
-  terminalFg: "#e8ecff",
-  terminalPrompt: "#8ef9ff",
-  terminalHint: "#94a3b8",
-  terminalErr: "#fda4af",
-  metaThemeColor: "#0b0d18",
-  cardBorder: "rgba(255, 255, 255, 0.06)",
-  codeBg: "rgb(255 255 255 / 8%)",
+  orange: "#3b82f6",
+  orangeCard: "rgba(59, 130, 246, 0.18)",
+  blurTint: "#1e1b4b",
+  yellow: "#8b5cf6",
+  toggleTrackBg: "#1a1d27",
+  ghostBtnBg: "#161922",
+  ghostBtnHover: "#1e2230",
+  pillBg: "#161922",
+  terminalBg: "#08090d",
+  terminalFg: "#e2e8f0",
+  terminalPrompt: "#60a5fa",
+  terminalHint: "#64748b",
+  terminalErr: "#f87171",
+  metaThemeColor: "#0a0a0f",
+  cardBorder: "rgba(255, 255, 255, 0.08)",
+  codeBg: "rgb(255 255 255 / 6%)",
 };
 
 /** Full-page shell: align surfaces with the terminal chrome. */
@@ -159,8 +159,8 @@ export function applyPortfolioTheme(config: PortfolioConfig, surfaceMode: Surfac
     root.style.setProperty(CSS_VAR[k], palette[k]);
   }
 
-  root.style.setProperty("--accent-from", config.theme?.accentFrom ?? "#fdc50f");
-  root.style.setProperty("--accent-to", config.theme?.accentTo ?? "#fb982f");
+  root.style.setProperty("--accent-from", config.theme?.accentFrom ?? "#3b82f6");
+  root.style.setProperty("--accent-to", config.theme?.accentTo ?? "#8b5cf6");
   if (config.theme?.blurTint) root.style.setProperty("--blur-tint", config.theme.blurTint);
 
   const metaColor = config.seo?.themeColor ?? palette.metaThemeColor;

@@ -27,17 +27,16 @@ function formatProjects(cfg: PortfolioConfig): string {
   return cfg.projects
     .map((p) => {
       const link = p.link ? `\n  link: ${p.link}` : "";
-      return `${p.name} (${p.period ?? "—"})\n  stack: ${p.stack}${link}\n${p.bullets.map((b) => `  - ${b}`).join("\n")}`;
+      return `${p.name} (${p.period ?? "—"})\n  stack: ${p.stack}${link}\n${p.results.map((b) => `  - ${b}`).join("\n")}`;
     })
     .join("\n\n");
 }
 
 type Props = {
   config: PortfolioConfig;
-  onCommand: (cmd: string) => void;
 };
 
-export function ShellView({ config, onCommand }: Props) {
+export function ShellView({ config }: Props) {
   const [lines, setLines] = useState<Line[]>([]);
   const [input, setInput] = useState("");
   const bottomRef = useRef<HTMLDivElement | null>(null);
@@ -54,15 +53,16 @@ export function ShellView({ config, onCommand }: Props) {
         "  projects        Selected projects",
         "  achievements    Awards & highlights",
         "  education       Degrees",
-        "  contact         Email, phone, links",
-        "  quests          Gamification progress",
+        "  contact         Email and links",
+        "  metrics         Engineering metrics",
+        "  stack           Tech stack proficiency",
       ].join("\n"),
     [],
   );
 
   useEffect(() => {
     setLines([
-      { kind: "out", text: `💙 ${config.meta.siteTitle}` },
+      { kind: "out", text: config.meta.siteTitle },
       { kind: "out", text: config.meta.shellWelcome },
       { kind: "out", text: "" },
       { kind: "out", text: helpText },
@@ -84,14 +84,13 @@ export function ShellView({ config, onCommand }: Props) {
   function run(raw: string) {
     const cmd = raw.trim();
     if (!cmd) return;
-    onCommand(cmd);
     setLines((prev) => [...prev, { kind: "out", text: `$ ${cmd}` }]);
 
     const c = cmd.toLowerCase();
     if (c === "help") pushOut(helpText);
     else if (c === "clear") setLines([]);
     else if (c === "whoami")
-      pushOut(`${config.meta.siteTitle}\n${config.meta.tagline}\n${config.meta.location}`);
+      pushOut(`${config.meta.siteTitle}\n${config.hero.subheading}\n${config.meta.location}`);
     else if (c === "skills") pushOut(formatSkills(config));
     else if (c === "experience") pushOut(formatExperience(config));
     else if (c === "projects") pushOut(formatProjects(config));
@@ -109,16 +108,22 @@ export function ShellView({ config, onCommand }: Props) {
           config.meta.phone,
           `LinkedIn: ${config.meta.links.linkedin}`,
           `GitHub: ${config.meta.links.github}`,
+          config.availability,
         ]
           .filter((v): v is string => Boolean(v && v.length))
           .join("\n"),
       );
-    else if (c === "quests")
+    else if (c === "metrics")
       pushOut(
-        [
-          "Explore the landing page sections and run distinct shell commands to earn XP.",
-          "Achievements unlock from config — see HUD on the landing view.",
-        ].join("\n"),
+        config.metrics
+          .map((m) => `${m.label}: ${m.prefix ?? ""}${m.value}${m.suffix ?? ""}`)
+          .join("\n"),
+      );
+    else if (c === "stack")
+      pushOut(
+        config.techStack
+          .map((cat) => `${cat.label}:\n${cat.skills.map((s) => `  ${s.name} (${s.proficiency}%)`).join("\n")}`)
+          .join("\n\n"),
       );
     else pushErr(`Unknown command: ${cmd}. Try help.`);
   }
@@ -131,26 +136,43 @@ export function ShellView({ config, onCommand }: Props) {
   }
 
   return (
-    <div className="card" style={{ padding: 0 }}>
-      <div className="terminal" role="region" aria-label="Portfolio shell">
+    <div className="glass overflow-hidden rounded-2xl font-mono text-sm">
+      <div className="flex items-center gap-2 border-b border-white/8 px-4 py-3">
+        <span className="h-3 w-3 rounded-full bg-red-500/80" />
+        <span className="h-3 w-3 rounded-full bg-yellow-500/80" />
+        <span className="h-3 w-3 rounded-full bg-green-500/80" />
+        <span className="ml-2 text-xs text-muted">portfolio-shell</span>
+      </div>
+      <div
+        className="min-h-[60vh] max-h-[70vh] overflow-y-auto bg-[var(--terminal-bg)] p-4 text-[var(--terminal-fg)]"
+        role="region"
+        aria-label="Portfolio shell"
+      >
         <div>
           {lines.map((l, i) => (
-            <p key={`${i}-${l.text.slice(0, 12)}`} className={`line${l.kind === "err" ? " line--err" : ""}`}>
+            <p
+              key={`${i}-${l.text.slice(0, 12)}`}
+              className={`whitespace-pre-wrap leading-relaxed ${l.kind === "err" ? "text-[var(--terminal-err)]" : ""}`}
+            >
               {l.text}
             </p>
           ))}
         </div>
-        <form className="cmd-input-row" onSubmit={onSubmit}>
-          <span className="prompt">$</span>
+        <form className="mt-2 flex items-center gap-2" onSubmit={onSubmit}>
+          <span className="text-[var(--terminal-prompt)]">$</span>
           <input
             autoComplete="off"
             spellCheck={false}
-            placeholder="try: experience | skills | projects"
+            placeholder="try: experience | projects | metrics"
             value={input}
             onChange={(e) => setInput(e.target.value)}
+            className="flex-1 bg-transparent text-[var(--terminal-fg)] outline-none placeholder:text-[var(--terminal-hint)]"
+            aria-label="Shell command input"
           />
         </form>
-        <div className="hint">Tip: every new command awards XP (stored in this browser).</div>
+        <p className="mt-3 text-xs text-[var(--terminal-hint)]">
+          Tip: type <code className="text-[var(--terminal-prompt)]">help</code> for available commands.
+        </p>
         <div ref={bottomRef} />
       </div>
     </div>
